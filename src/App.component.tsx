@@ -122,7 +122,10 @@ function AppComponent() {
       return item.mediaFormat.startsWith("BOOK__");
     }
     if (filter === ListFilter.MOVIE) {
-      return item.mediaFormat.startsWith("MOVIE__");
+      if (!item.mediaFormat.startsWith("MOVIE__")) {
+        return false;
+      }
+      return !movieFilter || item.mediaFormat.endsWith(movieFilter);
     }
     if (filter === ListFilter.VIDEO_GAME) {
       if (!item.mediaFormat.startsWith("VIDEO_GAME__")) {
