@@ -1,9 +1,9 @@
 import { Fragment, useEffect, useState } from "react";
 import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
+import SearchInputComponent from "./components/SearchInput.component";
 import UploadListInputComponent from "./components/UploadListInput.component";
 import { ListFilter, MediaFormat, MovieFormat, VideoGameFormat } from "./App.constants";
-import { normalizeString } from "./App.lib";
 import { MediaItem } from "./App.types";
 import "./App.styles.css";
 
@@ -11,11 +11,9 @@ function AppComponent() {
   const [existingItem, setExistingItem] = useState<MediaItem | null>(null);
   const [filter, setFilter] = useState<ListFilter | "">("");
   const [isFiltered, setIsFiltered] = useState(false);
-  const [isSearch, setIsSearch] = useState(false);
-  const [isSorted, setIsSorted] = useState(false);
   const [items, setItems] = useState<MediaItem[]>([]);
   const [movieFilter, setMovieFilter] = useState<MovieFormat | "">("");
-  const [searchText, setSearchText] = useState("");
+  const [searchValue, setSearchValue] = useState("");
   const [videoGameFilter, setVideoGameFilter] = useState<VideoGameFormat | "">("");
 
   useEffect(() => {
@@ -28,10 +26,6 @@ function AppComponent() {
   useEffect(() => {
     localStorage.setItem("list", JSON.stringify(items));
   }, [items]);
-
-  useEffect(() => {
-    setIsSearch(!!searchText);
-  }, [searchText]);
 
   const handleSubmit = (item: MediaItem) => {
     if (!item.title || !item.mediaFormat) {
@@ -71,13 +65,6 @@ function AppComponent() {
     setFilter(option);
     setMovieFilter("");
     setVideoGameFilter("");
-  };
-
-  const handleChangeSearch = () => {
-    setIsSearch((prev) => !prev);
-    if (isSearch) {
-      setSearchText("");
-    }
   };
 
   const handleCheckFilter = () => {
@@ -146,10 +133,10 @@ function AppComponent() {
   };
 
   const searchList = (item: MediaItem) => {
-    if (!isSearch) {
+    if (!searchValue) {
       return true;
     }
-    const value = (searchText || "").toLocaleLowerCase();
+    const value = searchValue.toLocaleLowerCase();
     return (
       item.title?.toLocaleLowerCase().includes(value) ||
       item.author?.toLocaleLowerCase().includes(value) ||
@@ -157,29 +144,10 @@ function AppComponent() {
     );
   };
 
-  const sortList = (a: MediaItem, b: MediaItem) => {
-    return isSorted ? normalizeString(a.title).localeCompare(normalizeString(b.title)) : 0;
-  };
-
   return (
     <div className="App">
       <header className="App-header" />
-      <input
-        checked={isSearch}
-        disabled={!isSearch}
-        id="search-checkbox"
-        onChange={handleChangeSearch}
-        type="checkbox"
-      />
-      <label className="App-list-manipulator-label" htmlFor="search-checkbox">
-        Search
-      </label>
-      <input onChange={(e) => setSearchText(e.target.value || "")} placeholder="..." value={searchText} />
-      <br />
-      <input checked={isSorted} id="sorted-checkbox" onChange={() => setIsSorted((prev) => !prev)} type="checkbox" />
-      <label className="App-list-manipulator-label" htmlFor="sorted-checkbox">
-        Sort
-      </label>
+      <SearchInputComponent onSearchChange={setSearchValue} />
       <br />
       <input checked={isFiltered} id="filtered-checkbox" onChange={handleCheckFilter} type="checkbox" />
       <label className="App-list-manipulator-label" htmlFor="filtered-checkbox">
@@ -264,15 +232,11 @@ function AppComponent() {
       <ul className="App-list">
         {items
           .map((i) => ({ ...i }))
-          .sort(sortList)
           .filter(filterList)
           .filter(searchList)
           .map((item) => {
             return (
-              <li
-                key={`${item.id}-${item.mediaFormat}-${item.title}${item.notes ? "-" + item.notes : ""}`}
-                className={`App-list-item ID:${item.id}`}
-              >
+              <li key={item.id} className={`App-list-item ID:${item.id}`}>
                 <MediaItemRowComponent
                   isActionDisabled={!!existingItem}
                   itemAuthor={item.author}
