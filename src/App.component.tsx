@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
+import S3ListDownloadComponent from "./components/S3ListDownload.component";
 import SearchInputComponent from "./components/SearchInput.component";
 import UploadListInputComponent from "./components/UploadListInput.component";
 import { ListFilter, MediaFormat, MovieFormat, VideoGameFormat } from "./App.constants";
@@ -225,6 +226,7 @@ function AppComponent() {
         </Fragment>
       )}
       {items.length === 0 && <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
+      {items.length === 0 && <S3ListDownloadComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
       <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
       {existingItem && <button onClick={() => setExistingItem(null)}>Cancel</button>}
       <br />
