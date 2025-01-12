@@ -4,6 +4,7 @@ import { mediaFormatMapper } from "../App.mapper";
 import "./MediaItemRow.styles.css";
 
 type MediaItemRowProps = {
+  isActionDisabled: boolean;
   itemAuthor: string;
   itemHasConsumed: boolean;
   itemMediaFormat: MediaFormat | "";
@@ -16,6 +17,7 @@ type MediaItemRowProps = {
 };
 
 const MediaItemRowComponent = ({
+  isActionDisabled = false,
   itemAuthor = "",
   itemHasConsumed = false,
   itemMediaFormat = "",
@@ -40,10 +42,10 @@ const MediaItemRowComponent = ({
         />
       )}
       <div className="MediaItemRow-btn-wrapper">
-        <button className="MediaItemRow-btn" onClick={onDelete}>
+        <button disabled={isActionDisabled} className="MediaItemRow-btn" onClick={onDelete}>
           Delete
         </button>
-        <button className="MediaItemRow-btn" onClick={onEdit}>
+        <button disabled={isActionDisabled} className="MediaItemRow-btn" onClick={onEdit}>
           Edit
         </button>
       </div>

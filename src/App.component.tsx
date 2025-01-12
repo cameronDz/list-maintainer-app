@@ -1,5 +1,5 @@
-import { Fragment, KeyboardEvent, useEffect, useState } from "react";
-import DropDownMediaType from "./components/DropDownMediaFormat.component";
+import { Fragment, useEffect, useState } from "react";
+import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
 import UploadListInputComponent from "./components/UploadListInput.component";
 import { ListFilter, MediaFormat, MovieFormat, VideoGameFormat } from "./App.constants";
@@ -8,20 +8,14 @@ import { MediaItem } from "./App.types";
 import "./App.styles.css";
 
 function AppComponent() {
-  const [author, setAuthor] = useState("");
+  const [existingItem, setExistingItem] = useState<MediaItem | null>(null);
   const [filter, setFilter] = useState<ListFilter | "">("");
-  const [hasConsumed, setHasConsumed] = useState(false);
   const [isFiltered, setIsFiltered] = useState(false);
   const [isSearch, setIsSearch] = useState(false);
   const [isSorted, setIsSorted] = useState(false);
-  const [itemId, setItemId] = useState("");
   const [items, setItems] = useState<MediaItem[]>([]);
-  const [mediaFormat, setMediaFormat] = useState<MediaFormat | "">("");
   const [movieFilter, setMovieFilter] = useState<MovieFormat | "">("");
-  const [notes, setNotes] = useState("");
-  const [priority, setPriority] = useState(0);
   const [searchText, setSearchText] = useState("");
-  const [title, setTitle] = useState("");
   const [videoGameFilter, setVideoGameFilter] = useState<VideoGameFormat | "">("");
 
   useEffect(() => {
@@ -39,49 +33,30 @@ function AppComponent() {
     setIsSearch(!!searchText);
   }, [searchText]);
 
-  const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.key === "Enter") {
-      handleSubmit();
-    }
-  };
-
-  const clearFields = () => {
-    setAuthor("");
-    setHasConsumed(false);
-    setItemId("");
-    setMediaFormat("");
-    setNotes("");
-    setPriority(0);
-    setTitle("");
-  };
-
-  const handleSubmit = () => {
-    if (!title || !mediaFormat) {
-      return;
+  const handleSubmit = (item: MediaItem) => {
+    if (!item.title || !item.mediaFormat) {
+      return false;
     }
 
-    const matchesExistingMedia = items.some((item) => {
-      return item.title === title && item.mediaFormat === mediaFormat && item.notes === notes && item.id !== itemId;
+    const matchesExistingMedia = items.some((existing) => {
+      return (
+        existing.title === item.title &&
+        existing.mediaFormat === item.mediaFormat &&
+        existing.notes === item.notes &&
+        existing.id !== item.id
+      );
     });
     if (matchesExistingMedia) {
       alert("media exists in list already");
-      return;
+      return false;
     }
-    const item: MediaItem = {
-      author: author.trim(),
-      hasConsumed,
-      id: itemId || crypto.randomUUID(),
-      mediaFormat,
-      notes: notes.trim(),
-      priority,
-      title: title.trim(),
-    };
-    if (!itemId) {
+    if (!existingItem) {
       setItems((prev) => [item, ...prev]);
     } else {
-      setItems((prev) => [...prev].map((prevItem) => (itemId !== prevItem.id ? prevItem : item)));
+      setItems((prev) => [...prev].map((prevItem) => (existingItem?.id !== prevItem.id ? prevItem : item)));
     }
-    clearFields();
+    setExistingItem(null);
+    return true;
   };
 
   const handleChangeConsumed = (idToUpdate: string) => {
@@ -137,16 +112,6 @@ function AppComponent() {
 
     document.body.removeChild(link);
     URL.revokeObjectURL(url);
-  };
-
-  const handleEdit = (item: MediaItem) => {
-    setAuthor(item.author);
-    setHasConsumed(item.hasConsumed);
-    setItemId(item.id);
-    setMediaFormat(item.mediaFormat);
-    setNotes(item.notes);
-    setPriority(item.priority);
-    setTitle(item.title);
   };
 
   const filterList = (item: MediaItem) => {
@@ -289,65 +254,8 @@ function AppComponent() {
         </Fragment>
       )}
       {items.length === 0 && <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
-      <div className="App-input">
-        <input
-          onChange={(e) => setTitle(e.target.value || "")}
-          onKeyDown={handleKeyDown}
-          placeholder="title"
-          value={title}
-        />
-      </div>
-      <div className="App-input">
-        <DropDownMediaType mediaFormat={mediaFormat} onSelect={setMediaFormat} />
-      </div>
-      <div className="App-input">
-        <input
-          checked={hasConsumed}
-          disabled={!mediaFormat || mediaFormat.startsWith("WISH_LIST")}
-          name="consumed-checkbox"
-          onChange={() => setHasConsumed((prev) => !prev)}
-          onKeyDown={handleKeyDown}
-          type="checkbox"
-        />
-        <label htmlFor="consumed-checkbox">
-          {mediaFormat.startsWith("BOOK") && "has read"}
-          {mediaFormat.startsWith("MOVIE") && "has watched"}
-          {mediaFormat.startsWith("VIDEO_GAME") && "has played"}
-        </label>
-      </div>
-      <div className="App-input">
-        <label htmlFor="priority-range">Priority</label>
-        <input
-          max="100"
-          min="0"
-          name="priority-range"
-          onChange={(e) => setPriority(Number(e.target.value || 0))}
-          step="1"
-          title={`${priority}`}
-          type="range"
-          value={priority}
-        />
-      </div>
-      <div className="App-input">
-        <input
-          onChange={(e) => setAuthor(e.target.value || "")}
-          onKeyDown={handleKeyDown}
-          placeholder="author"
-          value={author}
-        />
-      </div>
-      <div className="App-input">
-        <textarea
-          onChange={(e) => setNotes(e.target.value || "")}
-          onKeyDown={handleKeyDown}
-          placeholder="notes"
-          value={notes}
-        />
-      </div>
-      <button className="App-submit-btn" disabled={!mediaFormat || !title} onClick={handleSubmit}>
-        {!itemId ? "Submit" : "Save"}
-      </button>
-      {itemId && <button onClick={clearFields}>Cancel</button>}
+      <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
+      {existingItem && <button onClick={() => setExistingItem(null)}>Cancel</button>}
       <br />
       {items.length > 0 && <button onClick={handleDownload}>Download list</button>}
       <ul className="App-list">
@@ -356,24 +264,27 @@ function AppComponent() {
           .sort(sortList)
           .filter(filterList)
           .filter(searchList)
-          .map((item) => (
-            <li
-              key={`${item.id}-${item.mediaFormat}-${item.title}${item.notes ? "-" + item.notes : ""}`}
-              className={`App-list-item ID:${item.id}`}
-            >
-              <MediaItemRowComponent
-                itemAuthor={item.author}
-                itemHasConsumed={item.hasConsumed}
-                itemMediaFormat={item.mediaFormat}
-                itemNotes={item.notes}
-                itemPriority={item.priority}
-                itemTitle={item.title}
-                onChangeConsumed={() => handleChangeConsumed(item.id)}
-                onDelete={() => handleDelete(item.id)}
-                onEdit={() => handleEdit(item)}
-              />
-            </li>
-          ))}
+          .map((item) => {
+            return (
+              <li
+                key={`${item.id}-${item.mediaFormat}-${item.title}${item.notes ? "-" + item.notes : ""}`}
+                className={`App-list-item ID:${item.id}`}
+              >
+                <MediaItemRowComponent
+                  isActionDisabled={!!existingItem}
+                  itemAuthor={item.author}
+                  itemHasConsumed={item.hasConsumed}
+                  itemMediaFormat={item.mediaFormat}
+                  itemNotes={item.notes}
+                  itemPriority={item.priority}
+                  itemTitle={item.title}
+                  onChangeConsumed={() => handleChangeConsumed(item.id)}
+                  onDelete={() => handleDelete(item.id)}
+                  onEdit={() => setExistingItem(item)}
+                />
+              </li>
+            );
+          })}
       </ul>
     </div>
   );
