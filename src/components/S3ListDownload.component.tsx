@@ -1,7 +1,8 @@
+import { processData } from "../App.lib";
 import { MediaItem } from "../App.types";
 
-type S3ListDownloadProps = { onUpload: (items: MediaItem[]) => void };
-const S3ListDownloadComponent = ({ onUpload = (_i) => null }: S3ListDownloadProps) => {
+type S3ListDownloadProps = { onSuccess: (items: MediaItem[]) => void };
+const S3ListDownloadComponent = ({ onSuccess = (_i) => null }: S3ListDownloadProps) => {
   const handleClick = async () => {
     const url = "https://storage-data-list-maintainer.s3.us-east-1.amazonaws.com/MASTER_LIST.json";
     try {
@@ -10,7 +11,7 @@ const S3ListDownloadComponent = ({ onUpload = (_i) => null }: S3ListDownloadProp
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const jsonData = await response.json();
-      onUpload(jsonData);
+      onSuccess(processData(jsonData));
     } catch (error) {
       console.error("Error fetching JSON file:", error);
     }

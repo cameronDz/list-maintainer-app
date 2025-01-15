@@ -93,7 +93,7 @@ function AppComponent() {
     const blob = new Blob([jsonStr], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     link.href = url;
-    link.download = `data-${new Date().toISOString()}.json`;
+    link.download = `MASTER_LIST-${new Date().getFullYear()}_${new Date().getMonth() + 1}_${new Date().getDate()}.json`;
 
     document.body.appendChild(link);
     link.click();
@@ -226,7 +226,7 @@ function AppComponent() {
         </Fragment>
       )}
       {items.length === 0 && <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
-      {items.length === 0 && <S3ListDownloadComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
+      {items.length === 0 && <S3ListDownloadComponent onSuccess={(uploadedItems) => setItems(uploadedItems)} />}
       <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
       {existingItem && <button onClick={() => setExistingItem(null)}>Cancel</button>}
       <br />
