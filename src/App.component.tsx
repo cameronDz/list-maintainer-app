@@ -93,8 +93,10 @@ function AppComponent() {
     const blob = new Blob([jsonStr], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     link.href = url;
-    link.download = `MASTER_LIST-${new Date().getFullYear()}_${new Date().getMonth() + 1}_${new Date().getDate()}.json`;
-
+    const year = new Date().getFullYear();
+    const month = String(new Date().getMonth() + 1).padStart(2, "0");
+    const day = String(new Date().getDate()).padStart(2, "0");
+    link.download = `MASTER_LIST-${year}_${month}_${day}.json`;
     document.body.appendChild(link);
     link.click();
 
