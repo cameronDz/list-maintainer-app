@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
+import RandomMovieButtonComponent from "./components/RandomMovieButton.component";
 import S3ListDownloadComponent from "./components/S3ListDownload.component";
 import SearchInputComponent from "./components/SearchInput.component";
 import UploadListInputComponent from "./components/UploadListInput.component";
@@ -150,8 +151,8 @@ function AppComponent() {
   return (
     <div className="App">
       <header className="App-header" />
+      <RandomMovieButtonComponent items={items} />
       <SearchInputComponent onSearchChange={setSearchValue} />
-      <br />
       <input checked={isFiltered} id="filtered-checkbox" onChange={handleCheckFilter} type="checkbox" />
       <label className="App-list-manipulator-label" htmlFor="filtered-checkbox">
         Filter

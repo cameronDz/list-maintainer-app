@@ -46,6 +46,7 @@ const SearchInputComponent = ({ onSearchChange = (_s) => null }: SearchInputProp
       </label>
       <input onChange={handleChangeValue} placeholder="..." value={value} />
       {timer !== 0 && <div className="SearchInput-spinner">?</div>}
+      <br />
     </Fragment>
   );
 };
