@@ -1,8 +1,8 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useState } from "react";
+import LoadBackupListButtonComponent from "./components/LoadBackupListButtonComponent";
 import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
 import RandomMovieButtonComponent from "./components/RandomMovieButton.component";
-import S3ListDownloadComponent from "./components/S3ListDownload.component";
 import SearchInputComponent from "./components/SearchInput.component";
 import UploadListInputComponent from "./components/UploadListInput.component";
 import { ListFilter, MediaFormat, MovieFormat, VideoGameFormat } from "./App.constants";
@@ -17,17 +17,6 @@ function AppComponent() {
   const [movieFilter, setMovieFilter] = useState<MovieFormat | "">("");
   const [searchValue, setSearchValue] = useState("");
   const [videoGameFilter, setVideoGameFilter] = useState<VideoGameFormat | "">("");
-
-  useEffect(() => {
-    const storedItems = localStorage.getItem("list");
-    if (Array.isArray(storedItems)) {
-      setItems(JSON.parse(storedItems));
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem("list", JSON.stringify(items));
-  }, [items]);
 
   const handleSubmit = (item: MediaItem) => {
     if (!item.title || !item.mediaFormat) {
@@ -229,7 +218,7 @@ function AppComponent() {
         </Fragment>
       )}
       {items.length === 0 && <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
-      {items.length === 0 && <S3ListDownloadComponent onSuccess={(uploadedItems) => setItems(uploadedItems)} />}
+      {items.length === 0 && <LoadBackupListButtonComponent onLoad={(uploadedItems) => setItems(uploadedItems)} />}
       <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
       {existingItem && <button onClick={() => setExistingItem(null)}>Cancel</button>}
       <br />
