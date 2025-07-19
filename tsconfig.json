@@ -20,13 +20,15 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "types": [
-      "node",
-      "vitest/globals"
+      "node"
     ]
   },
   "include": [
-    "src",
-    "**/*.test.ts",
-    "**/*.test.tsx"
+    "src"
+  ],
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/setupTests.ts"
   ]
 }
