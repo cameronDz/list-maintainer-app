@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import LoadBackupListButtonComponent from "./components/LoadBackupListButtonComponent";
 import MediaItemInputComponent from "./components/MediaItemInput.component";
 import MediaItemRowComponent from "./components/MediaItemRow.component";
@@ -17,6 +17,16 @@ function AppComponent() {
   const [movieFilter, setMovieFilter] = useState<MovieFormat | "">("");
   const [searchValue, setSearchValue] = useState("");
   const [videoGameFilter, setVideoGameFilter] = useState<VideoGameFormat | "">("");
+
+  useEffect(() => {
+    try {
+    fetch("assets/data.json")
+      .then((response) => response.json())
+      .then((data: MediaItem[]) => setItems(data));
+    } catch (_err) {
+      // ignored
+    }
+  }, []);
 
   const handleSubmit = (item: MediaItem) => {
     if (!item.title || !item.mediaFormat) {

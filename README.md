@@ -1,25 +1,29 @@
-# Getting Started with Create React App
+# List Maintainer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was built with [Vite](https://vitejs.dev/) and [React](https://reactjs.org/), and is configured for deployment on GitHub Pages.
+
+## Live Demo
+
+The application is deployed at: [https://cameronDz.github.io/list-maintainer-app](https://cameronDz.github.io/list-maintainer-app)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `pnpm dev`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `pnpm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.\
+See the [Vitest documentation](https://vitest.dev/) for more information.
 
-### `npm run build`
+### `pnpm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,20 +31,59 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `pnpm deploy`
 
-### `npm run eject`
+Builds the app and deploys it to GitHub Pages. This command will:
+1. Run the build process
+2. Deploy the built files to the `gh-pages` branch
+3. Make the app available at the configured GitHub Pages URL
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## GitHub Pages Deployment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is configured to automatically deploy to GitHub Pages when you push to the `master` branch. The deployment is handled by GitHub Actions.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Manual Deployment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To deploy manually, run:
+```
+pnpm deploy
+```
+
+### Automatic Deployment
+
+The project includes a GitHub Actions workflow that automatically builds and deploys the app when changes are pushed to the `master` branch.
+
+## Development
+
+### Prerequisites
+
+- Node.js (>=18.0.0)
+- pnpm (>=8.0.0)
+
+### Getting Started
+
+1. Clone the repository
+2. Install dependencies: `pnpm install`
+3. Start the development server: `pnpm dev`
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
+
+### Additional Scripts
+
+- `pnpm lint` - Run ESLint to check code quality
+- `pnpm lint:fix` - Run ESLint and automatically fix issues
+- `pnpm preview` - Preview the production build locally
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Tech Stack
+
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Testing**: Vitest with jsdom
+- **Linting**: ESLint with Prettier
+- **Package Manager**: pnpm
+- **Deployment**: GitHub Pages with GitHub Actions
