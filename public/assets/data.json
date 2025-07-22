@@ -2,6 +2,33 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "089a278d-def9-4d83-a6d1-33358969d583",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Genji: Dawn of the Samurai"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1aa12b48-e0d5-451f-94e8-6724731aff79",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Godai: Elemental Foce"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ba7d2eff-941c-4d0b-bdad-dd6832133b87",
+        "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "",
+        "priority": 0,
+        "title": "Ratchet & Clank: A Crack in Time"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "8434a477-6556-43ce-adae-f8840953d909",
         "mediaFormat": "WISH_LIST__VIDEO_GAME",
         "notes": "",
