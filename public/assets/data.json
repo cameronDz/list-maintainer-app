@@ -2,6 +2,24 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "a03d658b-0cff-4206-9f73-f964facb7c6b",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Road to Neverwinter"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e7bdec60-c327-477d-b272-410d52696013",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "The Brutalist"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "089a278d-def9-4d83-a6d1-33358969d583",
         "mediaFormat": "VIDEO_GAME__PS2",
         "notes": "",
@@ -9894,9 +9912,9 @@
         "author": "Liu Cixin",
         "hasConsumed": false,
         "id": "a5d5f25d-441e-4704-b236-5ebfae7a9e2e",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
+        "priority": 0,
         "title": "Death's End"
     },
     {
