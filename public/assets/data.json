@@ -2,6 +2,24 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "121789a2-c803-4ecb-a9e1-22efa649cc64",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Landman: Season 1"
+    },
+    {
+        "author": "",
+        "hasConsumed": true,
+        "id": "648ec226-3637-4754-b1ad-0f3ae7b8c0ce",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "The Aristocats"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "a03d658b-0cff-4206-9f73-f964facb7c6b",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
