@@ -2,20 +2,20 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "c04df6cb-b86f-42e6-9747-9473cba77ef6",
+        "mediaFormat": "VIDEO_GAME__XBOX_360",
+        "notes": "Enhanced Edition",
+        "priority": 0,
+        "title": "The Witcher 2: Assassins of Kings"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "a8bd47f2-4b4a-4fdf-be27-70d42e984ac9",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
         "priority": 0,
         "title": "Aquarian Age: Sign for Evolution Collection"
-    },
-    {
-        "author": "",
-        "hasConsumed": false,
-        "id": "7263bf7c-3639-432b-802d-e4c9a65746e4",
-        "mediaFormat": "VIDEO_GAME__PS3",
-        "notes": "Broken Box",
-        "priority": 0,
-        "title": "Fallout: New Vegas"
     },
     {
         "author": "",
@@ -37,7 +37,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "93ee1b0b-3778-4314-8ec7-ae5a6b1bdfc4",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
