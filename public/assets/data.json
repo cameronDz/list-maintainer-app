@@ -2,6 +2,15 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "6612711b-9589-4e91-ad0e-40e03724806a",
+        "mediaFormat": "VIDEO_GAME__SWITCH",
+        "notes": "",
+        "priority": 100,
+        "title": "Final Fantasy Tactics: The Ivalice Chronicles"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "73a727ff-a45f-4301-88fa-7fca259d4230",
         "mediaFormat": "WISH_LIST__MOVIE",
         "notes": "",
@@ -9454,8 +9463,8 @@
         "hasConsumed": false,
         "id": "68b2b2e6-c000-41fc-94df-7450f97f28a9",
         "mediaFormat": "VIDEO_GAME__SWITCH",
-        "priority": 0,
         "notes": "The Final Cut",
+        "priority": 100,
         "title": "Disco Elysium"
     },
     {
@@ -9616,7 +9625,7 @@
         "hasConsumed": false,
         "id": "32b1afc9-55a3-44ea-bb4f-7bcfd0a57a9c",
         "mediaFormat": "VIDEO_GAME__SWITCH",
-        "priority": 0,
+        "priority": 90,
         "notes": "Deluxe Edition",
         "title": "Hogwarts Legacy"
     },
