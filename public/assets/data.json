@@ -2,6 +2,42 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "150883aa-6e30-4995-b800-26c5dfb45bbd",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "Constantine City of Demons: The Movie"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f1bc39a0-0ca0-48d9-b26d-66e5c1e00623",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Timecop"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "5c22eaf4-caaf-4fd6-b318-e607f2f9d622",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "The Curve"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2e520cc9-4016-44a4-8349-9852a33bcc12",
+        "mediaFormat": "VIDEO_GAME__NES",
+        "notes": "",
+        "priority": 0,
+        "title": "The Bugs Bunny Crazy Castle"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "6612711b-9589-4e91-ad0e-40e03724806a",
         "mediaFormat": "VIDEO_GAME__SWITCH",
         "notes": "",
@@ -415,7 +451,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "d656b457-307a-4409-96a1-4021697ea192",
         "mediaFormat": "WISH_LIST__MOVIE",
         "notes": "(2024)",
@@ -469,7 +505,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "a6d06a11-c341-44e1-9813-f5cd4f3439f2",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -12873,10 +12909,10 @@
         "author": "",
         "hasConsumed": false,
         "id": "5345c659-5873-4a1f-a13b-280fa48c00c8",
-        "mediaFormat": "WISH_LIST__MOVIE",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "(1998)",
         "priority": 0,
-        "notes": "",
-        "title": "Sphere (1998)"
+        "title": "Sphere"
     },
     {
         "author": "",
