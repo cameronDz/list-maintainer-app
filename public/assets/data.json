@@ -514,7 +514,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "2fb9829f-28a3-47e9-9ea7-fe05ce64d21e",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
@@ -2260,7 +2260,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "e7a48bb6-c7c8-455e-8dac-1d52d2a82a09",
         "mediaFormat": "MOVIE__BLUERAY",
         "priority": 0,
