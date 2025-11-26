@@ -2,6 +2,60 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "448cdee2-1379-46cf-83ea-109c9e6b1667",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "A Gaggle of Galloping Ghosts",
+        "priority": 0,
+        "title": "Classic Scooby-Doo"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "580b22a5-60ef-432f-90d5-026ec08db560",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Miami Blues"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "745e5ca6-27be-49cd-a61c-cb7112d17df7",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "",
+        "priority": 0,
+        "title": "The Making of X-Men Legends"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "255be778-fdac-4a3b-bebf-80ed9bd90452",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "",
+        "priority": 0,
+        "title": "The Messenger"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "da82352e-9ed8-4e58-9be8-aae9012af113",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "(1997)",
+        "priority": 0,
+        "title": "Batman & Robin"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e38f8284-9189-4f10-b855-406eb649e01f",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Race For Your Life, Charlie Brown!"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "150883aa-6e30-4995-b800-26c5dfb45bbd",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -550,7 +604,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "3a0e5395-39ae-40a2-9f7a-70b1cfa497d5",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
@@ -2638,7 +2692,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "8a7e4ad7-e692-4cb3-9b26-747e480fc13c",
         "mediaFormat": "MOVIE__BLUERAY",
         "priority": 0,
@@ -3187,7 +3241,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "71b8da78-e90a-465b-933d-2fd38512a73e",
         "mediaFormat": "MOVIE__BLUERAY",
         "priority": 0,
@@ -5050,7 +5104,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "459eb9e4-a515-4314-a3e5-2c32b885585b",
         "mediaFormat": "MOVIE__DVD",
         "priority": 0,
@@ -5185,7 +5239,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "53c7167a-14d6-459d-b5f0-7ff78970ff0b",
         "mediaFormat": "MOVIE__DVD",
         "priority": 0,
@@ -6868,7 +6922,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "5dee5eed-3664-43f5-a525-fafcf3d6f15f",
         "mediaFormat": "MOVIE__DVD",
         "priority": 0,
@@ -11620,11 +11674,11 @@
     },
     {
         "author": "Vonnegut, Kurt",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "e516a4c8-f7b8-4c37-bc70-1f1d48120d3b",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
+        "priority": 0,
         "title": "The Sirens of Titan"
     },
     {
