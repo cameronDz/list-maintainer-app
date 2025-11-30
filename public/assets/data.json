@@ -2,6 +2,24 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "1f707fc6-a665-4712-8038-bbcd70471b0a",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "Americana"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "03f87c28-77b7-462c-86ac-ff39e54a9728",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "First Man"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "448cdee2-1379-46cf-83ea-109c9e6b1667",
         "mediaFormat": "MOVIE__VHS",
         "notes": "A Gaggle of Galloping Ghosts",
@@ -156,10 +174,10 @@
         "author": "",
         "hasConsumed": false,
         "id": "eea54305-06d7-4387-8943-68c60d4c2eee",
-        "mediaFormat": "WISH_LIST__MOVIE",
+        "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
         "priority": 0,
-        "title": "Homesman"
+        "title": "The Homesman"
     },
     {
         "author": "",
@@ -1288,7 +1306,7 @@
     },
     {
         "author": "Cixin Liu",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ace524c2-c03b-486a-b460-1d3559ef63ca",
         "mediaFormat": "BOOK__PAPERBACK",
         "priority": 0,
@@ -11514,9 +11532,9 @@
         "author": "Finney, George & Kindervag, John",
         "hasConsumed": false,
         "id": "fbbb902b-705c-4f74-9887-810d853eaffe",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
+        "priority": 0,
         "title": "Project Zero Trust"
     },
     {
@@ -11532,7 +11550,7 @@
         "author": "John Updike",
         "hasConsumed": false,
         "id": "99c2d1d9-cf7a-4328-a8e1-586cd2bc1865",
-        "mediaFormat": "WISH_LIST__BOOK",
+        "mediaFormat": "BOOK__PAPERBACK",
         "priority": 0,
         "notes": "",
         "title": "Rabbit is Rich"
