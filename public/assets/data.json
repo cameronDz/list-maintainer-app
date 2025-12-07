@@ -2,6 +2,60 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "933a7cab-1acd-4b30-a6cc-b918dad41027",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "",
+        "priority": 0,
+        "title": "Batman and Harley Quinn"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "87a5aef9-f0f5-4957-8c94-991c6d9ff8ca",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Unrated",
+        "priority": 0,
+        "title": "Sublime"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ddfb3730-17fa-4e6a-9199-13739fcbcee8",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "To Catch a Thief"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "59d4c4a2-715b-417c-ad4a-01f012fa0bed",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "The Practical Princess and the Fisherman and His Wife"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c98dcb25-cccf-4def-86fb-af11473a8e6b",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "An American Tail"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "fae492ba-4423-4eb0-862a-592820d08e16",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "(caseless)",
+        "priority": 0,
+        "title": "Meet Angelina Ballerina"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "619127b5-a89a-4e8e-828c-41756d90e2d1",
         "mediaFormat": "MOVIE__VHS",
         "notes": "",
