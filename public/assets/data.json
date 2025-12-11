@@ -2,6 +2,51 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "6abd14cb-fd2c-49c9-98af-a0062a0ad69b",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "(duplicate)",
+        "priority": 0,
+        "title": "The Woman in Black"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "cb2bd1c8-abe7-4f47-bd81-d672c4febd10",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Winter's Tale"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2a2324cb-7e4f-414f-af25-b3430fac0403",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Winter Bone"
+    },
+    {
+        "author": "Kim Scott",
+        "hasConsumed": false,
+        "id": "dc4e20a4-9bd2-422b-8608-918695930558",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "Radical Respect"
+    },
+    {
+        "author": "Kim Scott",
+        "hasConsumed": false,
+        "id": "eb041bbc-e24c-455c-b0c6-2301f1293f14",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "Radical Candor"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "933a7cab-1acd-4b30-a6cc-b918dad41027",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
@@ -14313,9 +14358,9 @@
         "author": "",
         "hasConsumed": false,
         "id": "b66871a9-bf44-4a5f-b673-88d5f2de50da",
-        "mediaFormat": "WISH_LIST__VIDEO_GAME",
-        "priority": 0,
+        "mediaFormat": "VIDEO_GAME__SWITCH",
         "notes": "",
+        "priority": 0,
         "title": "Unicorn Overlord"
     },
     {
