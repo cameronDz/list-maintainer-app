@@ -2,6 +2,96 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "f0a99b50-feee-4e8b-8e82-25cc96fd9b2a",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "(last 5 episodes)",
+        "priority": 0,
+        "title": "Bubblegum Crisis: Tokyo 2040 - For All Mankind"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a078c66b-ebbf-47a1-b081-95ecacde27c5",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "The Little Drummer Boy"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ad897730-d3eb-47b4-813b-6122e6ee8954",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "Going the Distance"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "d8da3592-3f8c-4c49-b28e-7242faf1135b",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Constantine"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1a54f196-868b-40b9-8f2e-b99a58777261",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Superman 5-film Collection",
+        "priority": 0,
+        "title": "Superman Returns"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "8bc8e113-38f2-4964-9234-19b8d1540859",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Superman 5-film Collection",
+        "priority": 0,
+        "title": "Superman IV: The Question for Peace"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e6db9499-efef-40ba-8e86-a2f11c20c056",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Superman 5-film Collection",
+        "priority": 0,
+        "title": "Superman III"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6c4860b9-b1b1-479b-8e55-956c056fe31f",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "The Richard Donner Cut; Superman 5-film Collection",
+        "priority": 0,
+        "title": "Superman II"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c82db14b-3774-49c3-b85e-4d75999b6aad",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Expanded Edition; Superman 5-film Collection",
+        "priority": 0,
+        "title": "Superman the Movie"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2d2b7dd7-44b4-4115-9f3f-dd969071edc5",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Collector's Edition",
+        "priority": 0,
+        "title": "Wolf Man"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "6abd14cb-fd2c-49c9-98af-a0062a0ad69b",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "(duplicate)",
@@ -1786,8 +1876,8 @@
         "hasConsumed": false,
         "id": "878bd402-a508-4395-b3df-c345a68d5432",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 47,
         "title": "It's Not About the Bike"
     },
     {
@@ -10769,7 +10859,7 @@
         "id": "a5d5f25d-441e-4704-b236-5ebfae7a9e2e",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 0,
+        "priority": 46,
         "title": "Death's End"
     },
     {
@@ -11505,9 +11595,9 @@
         "author": "Aurelius, Marcus",
         "hasConsumed": false,
         "id": "88fc0084-06bd-4f68-a88f-2e886b6511f6",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "Waterfield, Robin - Annotated",
+        "priority": 0,
         "title": "Meditations"
     },
     {
@@ -11740,8 +11830,8 @@
         "hasConsumed": false,
         "id": "99c2d1d9-cf7a-4328-a8e1-586cd2bc1865",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 68,
         "title": "Rabbit is Rich"
     },
     {
@@ -12072,9 +12162,9 @@
         "author": "James D'Amato",
         "hasConsumed": false,
         "id": "07451ef8-03c8-4f9b-b64a-6ba024f4ae02",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
+        "priority": 69,
         "title": "The Ultimate RPG Game Master's Worldbuilding Guide"
     },
     {
