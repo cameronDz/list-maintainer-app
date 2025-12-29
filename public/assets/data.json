@@ -2,6 +2,60 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "f40ff51a-8e25-48fc-8200-adfdd34fb75b",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "",
+        "priority": 0,
+        "title": "Hard Candy"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "50e67fcd-9587-4d1d-a80c-403f4929aa81",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Mr. Blandings Builds His Dream House"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "3e633452-72a9-45f0-86c1-943125d97ec2",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Bombshell"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a9fd7c8c-7a46-4091-a0bc-48410180e661",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Dr. Seuss - One fish, two fish, red fish, blue fish"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "9d66dbd8-a70f-4d64-a98a-0ced47cafbf9",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Madeline's Rescue"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b2dc7d31-373f-491a-80d8-7b40b5297139",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Red Headed Woman"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "f0a99b50-feee-4e8b-8e82-25cc96fd9b2a",
         "mediaFormat": "MOVIE__DVD",
         "notes": "(last 5 episodes)",
@@ -244,7 +298,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "da9710cc-4329-4c26-9ac2-848dd668b00f",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
