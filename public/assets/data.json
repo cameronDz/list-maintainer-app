@@ -1,6 +1,51 @@
 [
     {
         "author": "",
+        "hasConsumed": true,
+        "id": "061b714d-969a-4be8-b501-e8a6abd2a701",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "1963",
+        "priority": 0,
+        "title": "The Day of the Triffids"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ff34484b-5c4a-4e4a-b807-13348a605960",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Shining Force EXA"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "176c7a19-7e0b-4d7e-9dd8-4e079e57957f",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Leisure Suit Larry: Magna Cum Laude"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6be38260-f5fc-4093-8445-3ea4bf20f260",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Howl"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "7fe6f283-42ed-4e78-838e-e3d20b58e513",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Captain America: Brave New World"
+    },
+    {
+        "author": "",
         "hasConsumed": false,
         "id": "f40ff51a-8e25-48fc-8200-adfdd34fb75b",
         "mediaFormat": "MOVIE__DVD",
@@ -82,7 +127,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "d8da3592-3f8c-4c49-b28e-7242faf1135b",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
