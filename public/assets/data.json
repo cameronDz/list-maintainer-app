@@ -1,6 +1,105 @@
 [
     {
         "author": "",
+        "hasConsumed": false,
+        "id": "c8a5860c-133a-4720-bbf6-c8dc52c3e3bd",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Cyborg"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "21951cb7-22c3-432e-9071-1ae562b91b76",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "(1958)",
+        "priority": 0,
+        "title": "Machine Gun Kelly"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "11e5f00c-7083-48f2-91df-31cd57aa3027",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "Demo Tape",
+        "priority": 0,
+        "title": "Beneath Lochness"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "7f7bd1ea-ea95-448b-a184-5fba0da5e786",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Earthquack"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "5aa8ae3d-3158-45af-bcdf-4f18f8cfe436",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "The Eternal: Kiss of the Mummy"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6dcb5f7b-5095-4e1f-a7a9-a5bbd35afef0",
+        "mediaFormat": "MOVIE__VHS",
+        "notes": "",
+        "priority": 0,
+        "title": "Warlock"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "adf09f88-be4a-40cc-9c68-8223765ab827",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "(no manual)",
+        "priority": 0,
+        "title": "Unlimited Saga"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "cfd01c9c-5d32-41b7-87fc-bd2fd1ee0307",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Heroes of Might and Magic: Quest for the Dragon Bone Staff"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f7e4e73b-d866-452f-9f1c-386bf7e5ae44",
+        "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "",
+        "priority": 0,
+        "title": "Two Worlds II"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b772ed09-0a11-4ff6-bfe4-2d7f80b89a71",
+        "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "",
+        "priority": 0,
+        "title": "Darksiders II"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "9a8770f7-7725-4cf9-8840-c299722ae908",
+        "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "",
+        "priority": 0,
+        "title": "Darksiders"
+    },
+    {
+        "author": "",
         "hasConsumed": true,
         "id": "061b714d-969a-4be8-b501-e8a6abd2a701",
         "mediaFormat": "MOVIE__VHS",
