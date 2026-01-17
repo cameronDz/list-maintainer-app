@@ -2,6 +2,15 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "5ae4888f-cf61-4d12-85b0-07024dfd463c",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "Season 1 & Season 2",
+        "priority": 0,
+        "title": "Spice and Wolf (Complete Series)"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "c8a5860c-133a-4720-bbf6-c8dc52c3e3bd",
         "mediaFormat": "MOVIE__VHS",
         "notes": "",
