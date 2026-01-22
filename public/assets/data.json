@@ -1,5 +1,59 @@
 [
     {
+        "author": "Robert Silverberg",
+        "hasConsumed": false,
+        "id": "aed1f72c-0491-4aa4-bd46-7448f6fccc09",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 100,
+        "title": "The World Inside"
+    },
+    {
+        "author": "Vernor Vinge",
+        "hasConsumed": false,
+        "id": "c32ed4bd-d4a5-4fa9-8610-7e8e1918c721",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "A Fire Upon the Deep"
+    },
+    {
+        "author": "Gene Wolfe",
+        "hasConsumed": false,
+        "id": "d702d4b0-d188-4720-b901-e2ee35abde19",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Shadow of the Torturer"
+    },
+    {
+        "author": "Neal Stephenson",
+        "hasConsumed": false,
+        "id": "6290d86a-3365-411d-813d-6d692af05cf2",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Diamond Age"
+    },
+    {
+        "author": "Neal Stephenson",
+        "hasConsumed": false,
+        "id": "6d252926-0b39-4d90-93c7-f0478f32eb70",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Necronomicon"
+    },
+    {
+        "author": "Neal Stephenson",
+        "hasConsumed": false,
+        "id": "ef870ac2-fafe-4da6-a081-a99cf13e6b90",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Confusion"
+    },
+    {
         "author": "",
         "hasConsumed": false,
         "id": "a22811d7-a2ca-4bb7-82fa-59c4e727eb05",
