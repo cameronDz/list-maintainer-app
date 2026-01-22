@@ -2,6 +2,456 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "a22811d7-a2ca-4bb7-82fa-59c4e727eb05",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Captain Fantastic"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "289333bd-d8a2-4416-bc31-84e39004d6ed",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2010)",
+        "priority": 0,
+        "title": "Don't Be Afraid of the Dark"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "3304d04a-c27c-4115-b15c-12b32e9d8cef",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1996)",
+        "priority": 0,
+        "title": "From Dusk Till Dawn"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "9b9b1171-cf6b-4243-9833-8b7595fa9506",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Beautiful Boy"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ab0c983a-e9f8-42be-bc3b-091108e88fad",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2023)",
+        "priority": 0,
+        "title": "There's Something Wrong with the Children"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "58286fa1-eccc-4f45-a438-29010680e7b5",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1996)",
+        "priority": 0,
+        "title": "Primal Fear"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "0f0f6306-f659-4c65-b0ab-3eec1a2494f0",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2025)",
+        "priority": 0,
+        "title": "The Lost Bus"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "317b04e5-4f6e-4d0e-8113-b0fe71861a7b",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Fracture"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e2e659d0-936a-4926-bfb0-eb3e650a9d11",
+        "mediaFormat": "WISH_LIST__VIDEO_GAME",
+        "notes": "",
+        "priority": 0,
+        "title": "Citizen Sleeper 2: Starward Vector"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ff617236-731c-463c-a297-7644d8aba058",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2019)",
+        "priority": 0,
+        "title": "El Camino"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "3f0623fc-8801-4891-9b5a-59b2810ad8c5",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1995)",
+        "priority": 0,
+        "title": "The Basketball Diaries"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ccf845ab-ef15-4e19-ac37-4b0714f0ccf1",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2006)",
+        "priority": 0,
+        "title": "Seraphim Falls"
+    },
+    {
+        "author": "Kris Newby",
+        "hasConsumed": false,
+        "id": "8eeaa040-cfae-49fe-a38f-b33acdbf5779",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Bitten: Secret History"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "8c9713eb-b7fa-4b17-ab46-7a8644439a15",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1958)",
+        "priority": 0,
+        "title": "Vertigo"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e2efe9d4-1393-41b7-b8bb-fc3674a90e19",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1984)",
+        "priority": 0,
+        "title": "Amadeus"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "04b5a094-0bff-4b7c-85a7-4d1a69c3bb86",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2009)",
+        "priority": 0,
+        "title": "Valhalla Rising"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "72be7b2d-8bba-4bd8-9ed9-82e0bf4d6ddc",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2020)",
+        "priority": 0,
+        "title": "Palm Springs"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6e3c04d7-ffe9-4184-9df4-e66a1169d689",
+        "mediaFormat": "WISH_LIST__VIDEO_GAME",
+        "notes": "(Wii)",
+        "priority": 0,
+        "title": "The Last Story"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "615b2ee9-f03d-42e5-9b53-4216c608ec99",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2017)",
+        "priority": 0,
+        "title": "Gifted"
+    },
+    {
+        "author": "Robert Greene",
+        "hasConsumed": false,
+        "id": "dbca514a-3c2e-40ee-be8f-5bd0824c3f88",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Art of Seduction"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "65188b07-dbf3-4606-adf6-62e9507914f5",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2013)",
+        "priority": 0,
+        "title": "About Time"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "459e8be3-4233-43ef-a93a-dfadc7bb52fd",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Good Fortune"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "37f59058-4145-4c12-bdae-0c585bd59258",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2024)",
+        "priority": 0,
+        "title": "Speak No Evil"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "3e68ff2d-fc42-4bb6-921c-366e664b4efe",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2025)",
+        "priority": 0,
+        "title": "One Battle After Another"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "45c2abc6-238c-4f2b-8242-53ef1a866f03",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2016)",
+        "priority": 0,
+        "title": "Hell or High Water"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "14ed7823-2026-419e-a8a9-e613e1778913",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1996)",
+        "priority": 0,
+        "title": "Sling Blade"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c9bc9338-1893-4da8-a97c-1d3538724fbd",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Swingers"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f62d9e0c-d58c-4074-91c2-0c57dede4ba4",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2019)",
+        "priority": 0,
+        "title": "Anna"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2b16980c-a90c-4b11-86e1-190231829103",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2020)",
+        "priority": 0,
+        "title": "Falling"
+    },
+    {
+        "author": "Robert Cialdini",
+        "hasConsumed": false,
+        "id": "2c6cf76e-4cf6-4af8-895f-2b581443f3c4",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Influence: The Psychology of Persuasion"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "5c312dd5-2352-4223-90f3-71407a960f20",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Rush"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2279ebbb-0de7-4be6-a4ab-3dde015cc8d7",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Road"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "35a8d7c5-e857-4949-98ed-d70f2349da6d",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Bugonia"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a61fa84f-6062-4fe5-952a-142ff3dad59f",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Jacket"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f7a77ca0-1062-4469-900b-5312bdb932bf",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1993)",
+        "priority": 0,
+        "title": "Searching for Bobby Fischer"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "db23a911-ad4e-4ce0-ad94-457de9102991",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Ruby Sparks"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "cc7e675e-d12b-447d-a794-3db4aa10fd1d",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Brad's Status"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "efb09fb4-fb76-4464-a946-54c080e84930",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Regretting You"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "01bb3ebc-4c2e-4964-9e8b-2b17565500ce",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Demolition"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "4532a355-1527-479e-9460-9f488597d181",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Ed Wood"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "e4e68049-7926-48cd-8a74-3717590f4177",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Art of Racing in the Rain"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "8e88b7b3-c027-44fb-b3b8-b0d97f46f310",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Wind River"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "67ef30e5-92b0-4f4e-8a7b-4d6efac56233",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Indecent Proposal"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "16ed527c-9db8-4e63-8b98-bff280304c04",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Great"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a3c82b9e-6446-4381-a6f5-a8e279541b11",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Sleuth"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "fa1677a4-2fc0-49ec-b182-c2a1e4b6f960",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Ninja Assassin"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "03cd4864-c215-4e9b-9cac-5c89e9382ab4",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "Atomic Blonde"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "fd91476d-242b-443b-b465-f5a8fb214f6e",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "A Dim Valley"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ab9aa5db-f5d2-40ee-a2c9-8ec8528b3d0b",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Money Monster"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "48a4f065-2e0a-4bd5-a72c-5be0368aa8ee",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "This is the End"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "5ae4888f-cf61-4d12-85b0-07024dfd463c",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "Season 1 & Season 2",
@@ -7672,8 +8122,8 @@
         "hasConsumed": false,
         "id": "12f2354b-83ec-402d-954b-c40e53e30cc7",
         "mediaFormat": "MOVIE__VHS",
+        "notes": "(1990)",
         "priority": 0,
-        "notes": "",
         "title": "The Rookie"
     },
     {
@@ -13540,8 +13990,8 @@
         "hasConsumed": false,
         "id": "cbe13cd7-f023-424b-849e-95306d51488e",
         "mediaFormat": "WISH_LIST__MOVIE",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "There Will Be Blood (2007)"
     },
     {
