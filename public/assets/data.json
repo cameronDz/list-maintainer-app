@@ -496,7 +496,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "48a4f065-2e0a-4bd5-a72c-5be0368aa8ee",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -2215,7 +2215,7 @@
     },
     {
         "author": "Steve McConnell",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "9fcd6d70-8c01-4566-9cd1-2963a064e0ca",
         "mediaFormat": "BOOK__PAPERBACK",
         "priority": 0,
