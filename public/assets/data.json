@@ -1,5 +1,275 @@
 [
     {
+        "author": "Andy Grove",
+        "hasConsumed": false,
+        "id": "30c0d6ba-e88d-4ced-9343-d366247ba02c",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Continuous Discovery Habits recommendation)",
+        "priority": 0,
+        "title": "High Output Management"
+    },
+    {
+        "author": "Charles Duhigg",
+        "hasConsumed": false,
+        "id": "39d3d86e-e4d9-47ed-98e4-b10029508c7e",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Continuous Discovery Habits recommendation)",
+        "priority": 0,
+        "title": "The Power of Habit: Why We Do What We Do in Life and Business"
+    },
+    {
+        "author": "Jared Diamand",
+        "hasConsumed": false,
+        "id": "1b789a62-a1ed-4dbf-8ceb-3b94ca32f4fa",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The ONE Thing recommendation)",
+        "priority": 0,
+        "title": "Guns, Germs, and Steel: The Fates of Human Societies"
+    },
+    {
+        "author": "Machiavelli ",
+        "hasConsumed": false,
+        "id": "7bacfe49-adee-4909-ad1d-cbaf34670a6a",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Social Contract recommendation)",
+        "priority": 0,
+        "title": "Discourses on Livy"
+    },
+    {
+        "author": "Jeff VanderMeer",
+        "hasConsumed": false,
+        "id": "b75d5540-45ce-4eb9-858d-3c609d590220",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Day of the Triffids recommendation)",
+        "priority": 0,
+        "title": "Annihilation"
+    },
+    {
+        "author": "Stephen Bungay",
+        "hasConsumed": false,
+        "id": "b334f706-ce32-4e0f-89a2-3eb85201e092",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Escaping the Build Trap recommendation)",
+        "priority": 0,
+        "title": "The Art of Action"
+    },
+    {
+        "author": "Adam Smith",
+        "hasConsumed": false,
+        "id": "b51a52dc-ca80-44c9-bca6-7499d6afaf08",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Rules for Radicals recommendation)",
+        "priority": 0,
+        "title": "The Wealth of Nations"
+    },
+    {
+        "author": "Adam Smith",
+        "hasConsumed": false,
+        "id": "ab8c2567-5796-4292-9230-5a61e807aac7",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Rules for Radicals recommendation)",
+        "priority": 0,
+        "title": "The Money Game"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1f68423b-30ba-4aec-bfa4-f19573c7e2cb",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(Super Mario: How Nintendo Conquered America recommendation)",
+        "priority": 0,
+        "title": "Wargames"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b51bcd23-ecea-4d6b-9e74-ac42400e4810",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(Super Mario: How Nintendo Conquered America recommendation)",
+        "priority": 0,
+        "title": "Hoffa"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1e63a3f6-643f-4730-b699-604088fb52e0",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(Super Mario: How Nintendo Conquered America recommendation)",
+        "priority": 0,
+        "title": "The Wizard"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "294d005b-4f54-429f-aef6-80d4e7ec8f35",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(Super Mario: How Nintendo Conquered America recommendation)",
+        "priority": 0,
+        "title": "Silent Movie"
+    },
+    {
+        "author": "Scott, Walter",
+        "hasConsumed": false,
+        "id": "13c15a8e-0f21-47ed-9522-81e4358da3c2",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Breakfast of Champions recommendation)",
+        "priority": 0,
+        "title": "Ivanhoe"
+    },
+    {
+        "author": "Isaac Asimov",
+        "hasConsumed": false,
+        "id": "21e44608-f568-46b8-8ce5-59fd439ea8b2",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Three-Body Problem recommendation)",
+        "priority": 0,
+        "title": "The Billiard Ball"
+    },
+    {
+        "author": "Carson, Rachel",
+        "hasConsumed": false,
+        "id": "ca817fc7-1e6b-4ce6-819a-7678dbace007",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Three-Body Problem recommendation)",
+        "priority": 0,
+        "title": "Silent Spring"
+    },
+    {
+        "author": "Luo Guanzhong",
+        "hasConsumed": false,
+        "id": "a84d8859-b3d6-4bd9-928c-a74d7b8319ce",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Dark Forest recommendation)",
+        "priority": 0,
+        "title": "Romance of the Three Kingdoms"
+    },
+    {
+        "author": "Liang Xiaosheng",
+        "hasConsumed": false,
+        "id": "3d1c428e-ca41-4e01-a89f-4f2ae93417d2",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Dark Forest recommendation)",
+        "priority": 0,
+        "title": "Floating City"
+    },
+    {
+        "author": "Joseph Campbell",
+        "hasConsumed": false,
+        "id": "149e60ca-6a89-4166-a1bf-87963845e5c3",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Watership Down recommendation)",
+        "priority": 0,
+        "title": "The Hero with a Thousand Faces"
+    },
+    {
+        "author": "Norbert Wiener",
+        "hasConsumed": false,
+        "id": "a5ee3bcb-de71-41a1-af03-accf6dba31b2",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Emergence recommendation)",
+        "priority": 0,
+        "title": "Cybernetics"
+    },
+    {
+        "author": "Norbert Wiener",
+        "hasConsumed": false,
+        "id": "48e7b4b4-6217-4ed6-a29e-b46e847b034b",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Emergence recommendation)",
+        "priority": 0,
+        "title": "God & Golem, Inc"
+    },
+    {
+        "author": "Jane Jacobs",
+        "hasConsumed": false,
+        "id": "500ac2f9-e7da-4a8c-bf20-86b1a60a7537",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Emergence recommendation)",
+        "priority": 0,
+        "title": "The Death and Life of the Great American Cities"
+    },
+    {
+        "author": "James Fenimore Cooper",
+        "hasConsumed": false,
+        "id": "79468cff-3420-4758-b16c-4676aae8cc33",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(The Cossacks recommendation)",
+        "priority": 0,
+        "title": "The Pathfinder"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1cecf354-0de2-4135-91df-c95056827f6f",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Robber Barons recommendation)",
+        "priority": 0,
+        "title": "The Light of Asia"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "d0b11e19-3782-4094-aabf-47e1daf26945",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(It's Not About the Bike recommendation)",
+        "priority": 0,
+        "title": "China Syndrome"
+    },
+    {
+        "author": "Tom Gilb",
+        "hasConsumed": false,
+        "id": "8d52a25b-990b-4d56-808e-076ddb205741",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "Principles of Software Engineering Management"
+    },
+    {
+        "author": "DeMarco & Lister",
+        "hasConsumed": false,
+        "id": "c268231d-ca2b-4caf-ba4d-92234fec78c6",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "Peopleware: Productive Projects and Teams"
+    },
+    {
+        "author": "Gerald Weinberg",
+        "hasConsumed": false,
+        "id": "e520d3ee-840b-43d2-a971-08c5273860ab",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "The Psychology of Computer Programming"
+    },
+    {
+        "author": "Susan Lammers",
+        "hasConsumed": false,
+        "id": "affb4a26-659e-482d-8aa4-433b99fd216d",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "Programmers at Work"
+    },
+    {
+        "author": "Kent Beck",
+        "hasConsumed": false,
+        "id": "8f9d472c-11b0-4e1b-9d04-550f202a84b9",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "Extreme Programming Explained: Embrace Change"
+    },
+    {
+        "author": "Jon Bentley",
+        "hasConsumed": false,
+        "id": "39d40b75-67c1-4c00-9cb4-12ce40a20119",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(Code Complete recommendation)",
+        "priority": 0,
+        "title": "Programming Pearls"
+    },
+    {
         "author": "Robert Silverberg",
         "hasConsumed": false,
         "id": "aed1f72c-0491-4aa4-bd46-7448f6fccc09",
