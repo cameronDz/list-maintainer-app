@@ -1,5 +1,23 @@
 [
     {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "a4616569-12f7-463d-95a3-d170085c84ff",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Witcher: Blood of Elves"
+    },
+    {
+        "author": "",
+        "hasConsumed": true,
+        "id": "a633751a-f125-4e3c-bc8d-15550ed95d55",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Tron: Ares"
+    },
+    {
         "author": "Andy Grove",
         "hasConsumed": false,
         "id": "30c0d6ba-e88d-4ced-9343-d366247ba02c",
@@ -534,7 +552,7 @@
         "author": "",
         "hasConsumed": false,
         "id": "3e68ff2d-fc42-4bb6-921c-366e664b4efe",
-        "mediaFormat": "WISH_LIST__MOVIE",
+        "mediaFormat": "MOVIE__BLUERAY",
         "notes": "(2025)",
         "priority": 0,
         "title": "One Battle After Another"
@@ -3556,7 +3574,7 @@
     },
     {
         "author": "Andrzej Sapkowski",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "618b142b-75e9-4d9b-846b-fa61a0f19157",
         "mediaFormat": "BOOK__PAPERBACK",
         "priority": 0,
