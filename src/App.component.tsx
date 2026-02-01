@@ -13,6 +13,7 @@ function AppComponent() {
   const [existingItem, setExistingItem] = useState<MediaItem | null>(null);
   const [filter, setFilter] = useState<ListFilter | "">("");
   const [isFiltered, setIsFiltered] = useState(false);
+  const [isSorted, setIsSorted] = useState(false);
   const [items, setItems] = useState<MediaItem[]>([]);
   const [movieFilter, setMovieFilter] = useState<MovieFormat | "">("");
   const [searchValue, setSearchValue] = useState("");
@@ -147,6 +148,18 @@ function AppComponent() {
     );
   };
 
+  const sortList = (a: MediaItem, b: MediaItem) => {
+    if (!isSorted) {
+      return 0;
+    }
+    // Sort by priority (highest to lowest)
+    if (a.priority !== b.priority) {
+      return b.priority - a.priority;
+    }
+    // Then sort alphabetically by title
+    return a.title.localeCompare(b.title);
+  };
+
   return (
     <div className="App">
       <header className="App-header" />
@@ -155,6 +168,10 @@ function AppComponent() {
       <input checked={isFiltered} id="filtered-checkbox" onChange={handleCheckFilter} type="checkbox" />
       <label className="App-list-manipulator-label" htmlFor="filtered-checkbox">
         Filter
+      </label>
+      <input checked={isSorted} id="sorted-checkbox" onChange={() => setIsSorted((prev) => !prev)} type="checkbox" />
+      <label className="App-list-manipulator-label" htmlFor="sorted-checkbox">
+        Sort by Priority
       </label>
       {isFiltered && (
         <Fragment>
@@ -238,6 +255,7 @@ function AppComponent() {
           .map((i) => ({ ...i }))
           .filter(filterList)
           .filter(searchList)
+          .sort(sortList)
           .map((item) => {
             return (
               <li key={item.id} className={`App-list-item ID:${item.id}`}>
