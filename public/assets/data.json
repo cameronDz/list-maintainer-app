@@ -1,11 +1,20 @@
 [
     {
+        "author": "Frank Herbert",
+        "hasConsumed": false,
+        "id": "ae48afbc-4911-4702-be59-d11b472e0985",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 100,
+        "title": "Dune: Messiah"
+    },
+    {
         "author": "Andrzej Sapkowski",
         "hasConsumed": false,
         "id": "a4616569-12f7-463d-95a3-d170085c84ff",
         "mediaFormat": "WISH_LIST__BOOK",
         "notes": "",
-        "priority": 0,
+        "priority": 100,
         "title": "The Witcher: Blood of Elves"
     },
     {
@@ -748,7 +757,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "fa1677a4-2fc0-49ec-b182-c2a1e4b6f960",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
@@ -1841,7 +1850,7 @@
         "id": "b5a983f6-79aa-43a8-9676-6b2260b396ac",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 0,
+        "priority": 100,
         "title": "The Great Divorce"
     },
     {
@@ -2398,8 +2407,8 @@
         "hasConsumed": false,
         "id": "ca6cd167-1f0f-44bd-850c-7892bf102d8c",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Bandersnatch"
     },
     {
@@ -2416,8 +2425,8 @@
         "hasConsumed": false,
         "id": "d2241ff1-6b3c-404b-88b1-529cc20a7411",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Beyond Good & Evil"
     },
     {
@@ -3109,8 +3118,8 @@
         "hasConsumed": false,
         "id": "1cff94a2-93f0-48e6-aa45-ac45a39bf422",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "The Ocean at the End of the Lane"
     },
     {
@@ -3181,8 +3190,8 @@
         "hasConsumed": false,
         "id": "72686bfc-6866-4256-a83d-c5437e2d089c",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Physics of the Impossible"
     },
     {
@@ -3505,8 +3514,8 @@
         "hasConsumed": false,
         "id": "2559f3d4-c3d6-4b1b-a2cc-836defab261e",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Understanding Unit/Linux Programming"
     },
     {
@@ -3514,8 +3523,8 @@
         "hasConsumed": false,
         "id": "97856f9f-e2c6-464f-b985-b13c0c385c9b",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Unlimited Power"
     },
     {
@@ -3568,8 +3577,8 @@
         "hasConsumed": true,
         "id": "89c2a99a-4d20-4f28-ad85-20ef0b3cd528",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 97,
         "notes": "",
+        "priority": 0,
         "title": "The Witcher: The Last Wish"
     },
     {
@@ -10219,8 +10228,8 @@
         "hasConsumed": false,
         "id": "43e1d116-dc15-4c81-9b3c-3b6b5b25ad94",
         "mediaFormat": "VIDEO_GAME__PS3",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Final Fantasy XIII"
     },
     {
@@ -10678,8 +10687,8 @@
         "hasConsumed": false,
         "id": "e0a03581-388a-4908-a37a-32bb018980f6",
         "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "(duplicate)",
         "priority": 0,
-        "notes": "(receipt for 2015 trade-in in case)",
         "title": "Warhammer 40000: Space Marine"
     },
     {
@@ -11011,8 +11020,8 @@
         "hasConsumed": false,
         "id": "32b1afc9-55a3-44ea-bb4f-7bcfd0a57a9c",
         "mediaFormat": "VIDEO_GAME__SWITCH",
-        "priority": 90,
         "notes": "Deluxe Edition",
+        "priority": 100,
         "title": "Hogwarts Legacy"
     },
     {
@@ -11101,8 +11110,8 @@
         "hasConsumed": false,
         "id": "514cee75-a603-4258-af23-f3c9531aaa79",
         "mediaFormat": "VIDEO_GAME__SWITCH",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Ni No Kuni: Wrath of the White Witch"
     },
     {
@@ -11335,8 +11344,8 @@
         "hasConsumed": false,
         "id": "81c0f976-36be-44f5-9719-9895236db620",
         "mediaFormat": "VIDEO_GAME__SWITCH",
-        "priority": 0,
         "notes": "Complete Edition",
+        "priority": 100,
         "title": "The Witcher 3: Wild Hunt"
     },
     {
@@ -11858,7 +11867,7 @@
         "id": "a5d5f25d-441e-4704-b236-5ebfae7a9e2e",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 46,
+        "priority": 100,
         "title": "Death's End"
     },
     {
@@ -11974,8 +11983,8 @@
         "hasConsumed": false,
         "id": "7e088d73-ad56-434e-989e-2d0ee44a0086",
         "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Dune"
     },
     {
@@ -12730,8 +12739,8 @@
         "hasConsumed": false,
         "id": "24bfc163-7f75-4278-ab4f-2a9cf10deb80",
         "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
         "notes": "",
+        "priority": 100,
         "title": "Odyssey"
     },
     {
