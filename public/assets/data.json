@@ -1,19 +1,145 @@
 [
     {
+        "author": "George R.R. Matrin",
+        "hasConsumed": false,
+        "id": "d4ae0de0-ec67-433d-8ecd-8b45d4371c77",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 5 of A Song of Ice and Fire)",
+        "priority": 0,
+        "title": "A Dance with Dragons"
+    },
+    {
+        "author": "George R.R. Martin",
+        "hasConsumed": false,
+        "id": "7be54050-ec3d-48e1-a3ac-8895c6e9706c",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 4 of A Song of Ice and Fire)",
+        "priority": 0,
+        "title": "A Feast for Crows"
+    },
+    {
+        "author": "George R.R. Martin",
+        "hasConsumed": false,
+        "id": "1a4d0e1f-3d1f-4ed5-9e0f-94a38974eaaf",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 3 of A Song of Ice and Fire)",
+        "priority": 0,
+        "title": "A Storm of Swords"
+    },
+    {
+        "author": "George R.R. Martin",
+        "hasConsumed": false,
+        "id": "00a102b4-7b49-434b-9a92-4c26b07bb119",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 2 of A Song of Ice and Fire)",
+        "priority": 0,
+        "title": "A Clash of Kings"
+    },
+    {
+        "author": "George R.R. Martin",
+        "hasConsumed": false,
+        "id": "cde2abd7-38fe-483f-90ed-85ced61f8a29",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 1 of A Song of Ice and Fire)",
+        "priority": 100,
+        "title": "A Game of Thrones"
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "1da1415a-6c33-4b13-a5de-0ef3d304ceb8",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Witcher: Season of Storms"
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "9b18f764-cf80-4ab3-bebf-b337dafe7d5e",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 5 of main saga)",
+        "priority": 0,
+        "title": "The Witcher: The Lady of the Lake"
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "c63d3201-6346-4173-84b8-0705a364c55f",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 4 of main saga)",
+        "priority": 0,
+        "title": "The Witcher: The Tower of the Swallow"
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "40cdc440-8c05-4d15-9624-b751ee4d8ab0",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 3 of main saga)",
+        "priority": 0,
+        "title": "The Witcher: Baptism of Fire"
+    },
+    {
+        "author": "Andrzej Sapkowski",
+        "hasConsumed": false,
+        "id": "74621fe1-2eb7-413e-9e49-52027b776d9f",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 2 of main saga)",
+        "priority": 0,
+        "title": "The Witcher: Time of Contempt"
+    },
+    {
+        "author": "Frank Herbert",
+        "hasConsumed": false,
+        "id": "fa50cda7-6203-4c98-90b2-97fba71d9c4c",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 6 of series)",
+        "priority": 0,
+        "title": "Chapterhouse: Dune"
+    },
+    {
+        "author": "Frank Herbert",
+        "hasConsumed": false,
+        "id": "1db28b21-14e9-4a80-89c7-743b31d5e07f",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 5 of series)",
+        "priority": 0,
+        "title": "Heretics of Dune"
+    },
+    {
+        "author": "Frank Herbert",
+        "hasConsumed": false,
+        "id": "7e6ad05f-5b1c-4234-9437-84ba726f5554",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 4 of series)",
+        "priority": 0,
+        "title": "God Emperor of Dune"
+    },
+    {
+        "author": "Frank Herbert",
+        "hasConsumed": false,
+        "id": "b17f3499-83d7-4201-b29f-9093bd93081c",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "(book 3 of series)",
+        "priority": 0,
+        "title": "Children of Dune"
+    },
+    {
         "author": "Frank Herbert",
         "hasConsumed": false,
         "id": "ae48afbc-4911-4702-be59-d11b472e0985",
         "mediaFormat": "WISH_LIST__BOOK",
-        "notes": "",
+        "notes": "(book 2 of series)",
         "priority": 100,
-        "title": "Dune: Messiah"
+        "title": "Dune Messiah"
     },
     {
         "author": "Andrzej Sapkowski",
         "hasConsumed": false,
         "id": "a4616569-12f7-463d-95a3-d170085c84ff",
         "mediaFormat": "WISH_LIST__BOOK",
-        "notes": "",
+        "notes": "(book 1 of main saga)",
         "priority": 100,
         "title": "The Witcher: Blood of Elves"
     },
@@ -302,7 +428,7 @@
         "id": "aed1f72c-0491-4aa4-bd46-7448f6fccc09",
         "mediaFormat": "WISH_LIST__BOOK",
         "notes": "",
-        "priority": 100,
+        "priority": 43,
         "title": "The World Inside"
     },
     {
@@ -2371,8 +2497,8 @@
         "hasConsumed": false,
         "id": "5b54ec8f-7a3f-4f19-acc2-3125d349935c",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 71,
         "notes": "",
+        "priority": 100,
         "title": "American Gods"
     },
     {
@@ -2885,7 +3011,7 @@
         "id": "878bd402-a508-4395-b3df-c345a68d5432",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 47,
+        "priority": 100,
         "title": "It's Not About the Bike"
     },
     {
@@ -3343,8 +3469,8 @@
         "hasConsumed": true,
         "id": "655bb371-5741-4222-a7ce-b45b91a3f5e5",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 83,
         "notes": "",
+        "priority": 0,
         "title": "Snow Crash"
     },
     {
@@ -3451,8 +3577,8 @@
         "hasConsumed": true,
         "id": "91fc42cb-67dd-49ec-ab1f-b6c0c0dfeadc",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 97,
         "notes": "Translated by Ken Liu",
+        "priority": 0,
         "title": "The Three-Body Problem"
     },
     {
@@ -3550,8 +3676,8 @@
         "hasConsumed": true,
         "id": "3314169f-4db3-440c-9068-607b3e14501b",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 78,
         "notes": "50th Anniversary Edition",
+        "priority": 0,
         "title": "Watership Down"
     },
     {
@@ -11983,7 +12109,7 @@
         "hasConsumed": false,
         "id": "7e088d73-ad56-434e-989e-2d0ee44a0086",
         "mediaFormat": "WISH_LIST__BOOK",
-        "notes": "",
+        "notes": "(book 2 of series)",
         "priority": 100,
         "title": "Dune"
     },
@@ -12839,7 +12965,7 @@
         "id": "99c2d1d9-cf7a-4328-a8e1-586cd2bc1865",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 68,
+        "priority": 100,
         "title": "Rabbit is Rich"
     },
     {
@@ -13172,7 +13298,7 @@
         "id": "07451ef8-03c8-4f9b-b64a-6ba024f4ae02",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
-        "priority": 69,
+        "priority": 100,
         "title": "The Ultimate RPG Game Master's Worldbuilding Guide"
     },
     {
