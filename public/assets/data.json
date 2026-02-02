@@ -1,5 +1,23 @@
 [
     {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f771c1d1-7ca3-4cb2-b904-1284c3a09c47",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Houdini"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "48699376-b7d7-4c0f-ad96-bdbd73cb21f7",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Maggie"
+    },
+    {
         "author": "George R.R. Matrin",
         "hasConsumed": false,
         "id": "d4ae0de0-ec67-433d-8ecd-8b45d4371c77",
@@ -3642,7 +3660,7 @@
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
         "priority": 100,
-        "title": "Understanding Unit/Linux Programming"
+        "title": "Understanding Unix/Linux Programming"
     },
     {
         "author": "Tony Robbins",
@@ -4204,11 +4222,11 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "2e36eb87-6731-4c5d-8588-a266c3b9a0e5",
         "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "(original Chinese/English audio only)",
         "priority": 0,
-        "notes": "",
         "title": "Dragon Blade"
     },
     {
