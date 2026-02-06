@@ -1288,7 +1288,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "933a7cab-1acd-4b30-a6cc-b918dad41027",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
@@ -1423,7 +1423,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "3ac44112-51ea-4f0d-b1fd-086c60dafcca",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
@@ -1504,7 +1504,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "150883aa-6e30-4995-b800-26c5dfb45bbd",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
