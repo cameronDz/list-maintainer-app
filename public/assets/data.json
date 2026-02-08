@@ -7363,7 +7363,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "868dd349-0307-44da-8f4b-82be98a4bfc9",
         "mediaFormat": "MOVIE__DVD",
         "priority": 0,
@@ -7912,7 +7912,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "9f13ec65-1379-4bd9-bb48-d679d44e083d",
         "mediaFormat": "MOVIE__DVD",
         "priority": 0,
