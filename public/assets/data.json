@@ -2,6 +2,15 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "ecc0dc16-e71f-4706-b49a-13b61519bc48",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "",
+        "priority": 0,
+        "title": "Altered"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "f771c1d1-7ca3-4cb2-b904-1284c3a09c47",
         "mediaFormat": "WISH_LIST__MOVIE",
         "notes": "",
@@ -786,7 +795,7 @@
         "author": "",
         "hasConsumed": false,
         "id": "35a8d7c5-e857-4949-98ed-d70f2349da6d",
-        "mediaFormat": "WISH_LIST__MOVIE",
+        "mediaFormat": "MOVIE__DVD",
         "notes": "",
         "priority": 0,
         "title": "Bugonia"
