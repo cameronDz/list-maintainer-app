@@ -2,9 +2,18 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "995ca23b-7f1a-4238-a62d-8e04279d3c46",
+        "mediaFormat": "VIDEO_GAME__SWITCH",
+        "notes": "",
+        "priority": 73,
+        "title": "Pokemon Mystery Dungeon: Rescue Team DX"
+    },
+    {
+        "author": "",
+        "hasConsumed": true,
         "id": "ecc0dc16-e71f-4706-b49a-13b61519bc48",
         "mediaFormat": "MOVIE__DVD",
-        "notes": "",
+        "notes": "(2025)",
         "priority": 0,
         "title": "Altered"
     },
@@ -3034,7 +3043,7 @@
     },
     {
         "author": "Lance Armstrong",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "878bd402-a508-4395-b3df-c345a68d5432",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
