@@ -802,7 +802,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "35a8d7c5-e857-4949-98ed-d70f2349da6d",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
