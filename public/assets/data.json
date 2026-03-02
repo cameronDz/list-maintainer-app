@@ -1324,7 +1324,7 @@
     },
     {
         "author": "Kim Scott",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "eb041bbc-e24c-455c-b0c6-2301f1293f14",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
