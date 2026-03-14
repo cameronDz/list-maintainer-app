@@ -1,6 +1,51 @@
 [
     {
         "author": "",
+        "hasConsumed": false,
+        "id": "dfc5628c-4d50-43cf-bef5-d5a81bc12429",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Satoshi Kon's (episodes 1 - 13)",
+        "priority": 0,
+        "title": "Paranoia Agent"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "807e91c7-181a-434e-a7ae-33463412699e",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "The Mule"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ac9f8007-44f8-4132-8d3f-d15f517e1c75",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Constantine: The House of Mystery"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f6aa541b-de1d-47c2-83e8-302c43fc1610",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "I Am Dragon"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "bee3d30e-8174-4f90-8552-3d30a13e75d7",
+        "mediaFormat": "VIDEO_GAME__PS3",
+        "notes": "",
+        "priority": 0,
+        "title": "Bladestorm: The Hundred Years' Warn"
+    },
+    {
+        "author": "",
         "hasConsumed": true,
         "id": "bbc765a9-d924-4434-821b-4ddb6f5e2df7",
         "mediaFormat": "MOVIE__DVD",
@@ -1563,7 +1608,7 @@
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
         "priority": 0,
-        "title": "Constantine City of Demons: The Movie"
+        "title": "Constantine: City of Demons: The Movie"
     },
     {
         "author": "",
