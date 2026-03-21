@@ -1,0 +1,29 @@
+.SearchInput-label {
+    padding: 0 4px;
+}
+
+.SearchInput-input-container input {
+    margin-right: 4px;
+}
+
+.SearchInput-spinner {
+    animation: spin 1s linear infinite;
+    color: #333;
+    display: inline-flex;
+    font-size: 16px;
+    height: 20px;
+    justify-content: center;
+    margin-left: 6px;
+    position: relative;
+    width: 20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

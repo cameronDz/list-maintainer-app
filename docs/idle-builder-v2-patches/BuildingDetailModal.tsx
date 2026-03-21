@@ -1,3 +1,6 @@
+New file: src/components/BuildingDetailModal.tsx
+=================================================
+
 import type { BuildingTimer } from '../types/game';
 import type { BuildingConfig } from '../config/buildings';
 import { formatTime } from '../utils/timeUtils';

@@ -1,0 +1,147 @@
+--- a/src/components/GridCell.tsx
++++ b/src/components/GridCell.tsx
+@@ -1,11 +1,13 @@
++import { useState } from 'react';
+ import { useTimer } from '../hooks/useTimer';
+ import type { BuildingInstance, BuildingTimer } from '../types/game';
+ import type { BuildingConfig } from '../config/buildings';
+ import { formatTime } from '../utils/timeUtils';
++import { BuildingDetailModal } from './BuildingDetailModal';
+ import styles from './GridCell.module.css';
+ 
+ interface OccupiedCellProps {
+   instance: BuildingInstance;
+   config: BuildingConfig;
+   isBuildLimitReached: boolean;
+   onBuildingUpdate: (instanceId: string, timerState: BuildingTimer) => void;
+-  onBuildingIconClick: (instanceId: string) => void;
+ }
+ 
+ function OccupiedCell({
+@@ -14,7 +16,8 @@ function OccupiedCell({
+   config,
+   isBuildLimitReached,
+   onBuildingUpdate,
+-  onBuildingIconClick,
+ }: OccupiedCellProps) {
++  const [showModal, setShowModal] = useState(false);
++
+   const { timerState, startTimer, completeTimer, acknowledgeComplete } = useTimer(
+     config.duration,
+     instance.id
+@@ -79,29 +82,35 @@ function OccupiedCell({
+   return (
+-    <div className={styles.occupiedCell}>
+-      <button
+-        className={styles.iconButton}
+-        onClick={() => onBuildingIconClick(instance.id)}
+-        title={`${config.name} — click for details`}
+-      >
+-        <span className={styles.buildingIcon}>{currentIcon}</span>
+-      </button>
+-      <span className={styles.buildingName}>{config.name}</span>
+-      <span className={styles.levelLabel}>{`Lv ${timerState.level}`}</span>
+-      {productionStr && <span className={styles.productionInfo}>{productionStr}</span>}
+-
+-      <div className={styles.progressBarWrapper}>
+-        <div
+-          className={styles.progressBar}
+-          style={{ width: `${timerState.progress}%`, background: progressColor }}
+-        />
+-      </div>
+-
+-      {timerState.isComplete ? (
+-        <button className={styles.completeButton} onClick={handleAcknowledge}>
+-          {'✔ Complete'}
+-        </button>
+-      ) : timerState.hasStarted ? (
+-        <div className={styles.timerRow}>
+-          <span className={styles.timeRemaining}>{formatTime(timerState.timeRemaining)}</span>
+-          {timerState.timeRemaining <= 30000 && (
+-            <button className={styles.finishButton} onClick={handleFinish}>
+-              {'Finish'}
+-            </button>
+-          )}
+-        </div>
+-      ) : (
+-        <button
+-          className={styles.startButton}
+-          onClick={handleStart}
+-          disabled={isBuildLimitReached}
+-          title={isBuildLimitReached ? 'Max concurrent builds reached' : 'Start construction'}
+-        >
+-          {'▶ Start'}
+-        </button>
+-      )}
+-    </div>
++    <>
++      <div
++        className={styles.occupiedCell}
++        onClick={() => setShowModal(true)}
++        title={`${config.name} — click for details`}
++        role="button"
++        tabIndex={0}
++        onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') setShowModal(true); }}
++      >
++        <span className={styles.buildingIcon}>{currentIcon}</span>
++        <span className={styles.buildingName}>{config.name}</span>
++        <span className={styles.levelLabel}>{`Lv ${timerState.level}`}</span>
++        {productionStr && <span className={styles.productionInfo}>{productionStr}</span>}
++
++        <div className={styles.progressBarWrapper}>
++          <div
++            className={styles.progressBar}
++            style={{ width: `${timerState.progress}%`, background: progressColor }}
++          />
++        </div>
++
++        {timerState.isComplete ? (
++          <span className={styles.completeHint}>{'✔ Done'}</span>
++        ) : timerState.hasStarted ? (
++          <span className={styles.timeRemaining}>{formatTime(timerState.timeRemaining)}</span>
++        ) : (
++          <span className={styles.stateHint}>{'tap to start'}</span>
++        )}
++      </div>
++
++      {showModal && (
++        <BuildingDetailModal
++          config={config}
++          timerState={timerState}
++          isBuildLimitReached={isBuildLimitReached}
++          onStart={handleStart}
++          onFinish={handleFinish}
++          onAcknowledge={handleAcknowledge}
++          onClose={() => setShowModal(false)}
++        />
++      )}
++    </>
+   );
+ }
+ 
+@@ -111,7 +120,6 @@ interface GridCellProps {
+   isBuildLimitReached: boolean;
+   onEmptyCellClick: (position: { x: number; y: number }) => void;
+   onBuildingUpdate: (instanceId: string, timerState: BuildingTimer) => void;
+-  onBuildingIconClick: (instanceId: string) => void;
+   getBuildingConfig: (buildingTypeId: string) => BuildingConfig | undefined;
+ }
+ 
+@@ -121,7 +129,6 @@ export function GridCell({
+   isBuildLimitReached,
+   onEmptyCellClick,
+   onBuildingUpdate,
+-  onBuildingIconClick,
+   getBuildingConfig,
+ }: GridCellProps) {
+   if (!cell.isOccupied || !cell.buildingInstance) {
+@@ -141,7 +148,6 @@ export function GridCell({
+     <OccupiedCell
+       instance={cell.buildingInstance}
+       config={config}
+       isBuildLimitReached={isBuildLimitReached}
+       onBuildingUpdate={onBuildingUpdate}
+-      onBuildingIconClick={onBuildingIconClick}
+     />
+   );
+ }

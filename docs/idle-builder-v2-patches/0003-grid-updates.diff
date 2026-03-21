@@ -1,0 +1,149 @@
+--- a/src/components/GridCell.module.css
++++ b/src/components/GridCell.module.css
+@@ -30,7 +30,8 @@
+ 
+ .occupiedCell {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 4px;
+   background: #fff;
+   border: 1px solid #e5e7eb;
+   border-radius: 8px;
+   padding: 8px 6px;
+   min-height: 110px;
++  cursor: pointer;
++  transition: background 0.15s, border-color 0.15s;
+ }
+ 
+-.iconButton {
+-  background: none;
+-  border: none;
+-  cursor: pointer;
+-  padding: 2px;
+-  border-radius: 6px;
+-  transition: background 0.15s;
+-}
+-
+-.iconButton:hover {
+-  background: #f3f4f6;
++.occupiedCell:hover {
++  background: #f9fafb;
++  border-color: #9ca3af;
+ }
+ 
+@@ ... (timerRow section removed, stateHint and completeHint added) ...
+ 
+-.timerRow {
+-  display: flex;
+-  align-items: center;
+-  gap: 4px;
+-  width: 100%;
+-  justify-content: center;
+-}
+-
+ .timeRemaining {
+   font-size: 0.7rem;
+   color: #6b7280;
+ }
+ 
+-.startButton,
+-.finishButton,
+-.completeButton {
+-  font-size: 0.65rem;
+-  font-weight: 600;
+-  padding: 3px 8px;
+-  border: none;
+-  border-radius: 4px;
+-  cursor: pointer;
+-  transition: background 0.15s;
+-}
+-
+-.startButton {
+-  background: #3b82f6;
+-  color: #fff;
+-  width: 100%;
+-}
+-
+-.startButton:hover:not(:disabled) {
+-  background: #2563eb;
+-}
+-
+-.startButton:disabled {
+-  background: #9ca3af;
+-  cursor: not-allowed;
+-}
+-
+-.finishButton {
+-  background: #f59e0b;
+-  color: #fff;
+-}
+-
+-.finishButton:hover {
+-  background: #d97706;
+-}
+-
+-.completeButton {
+-  background: #22c55e;
+-  color: #fff;
+-  width: 100%;
+-}
+-
+-.completeButton:hover {
+-  background: #16a34a;
+-}
++.stateHint {
++  font-size: 0.6rem;
++  color: #9ca3af;
++  font-style: italic;
++}
++
++.completeHint {
++  font-size: 0.6rem;
++  color: #22c55e;
++  font-weight: 600;
++}
+
+---
+
+diff --git a/src/components/Grid.tsx b/src/components/Grid.tsx
+--- a/src/components/Grid.tsx
++++ b/src/components/Grid.tsx
+@@ -40,7 +40,6 @@ export function Grid({
+ }) {
+   const [selectorPosition, setSelectorPosition] = useState<GridPosition | null>(null);
+-  const [pendingDetailId, setPendingDetailId] = useState<string | null>(null);
+ 
+   ...
+ 
+   const handleEmptyCellClick = (position: GridPosition) => {
+-    if (buildLimitReached) return;
+     setSelectorPosition(position);
+   };
+ 
+-  const handleBuildingIconClick = (instanceId: string) => {
+-    setPendingDetailId(instanceId);
+-    console.log('Building detail requested for:', instanceId);
+-  };
+-
+   ...
+ 
+         <GridCell
+           ...
+           onBuildingUpdate={handleBuildingUpdate}
+-          onBuildingIconClick={handleBuildingIconClick}
+           getBuildingConfig={getBuildingConfig}
+         />
+ 
+     {selectorPosition && (
+       <BuildingSelector
+         onSelect={handleBuildingSelect}
+         onCancel={handleSelectorCancel}
+         getBuildingCount={getBuildingCount}
+         canAfford={canAfford}
++        resources={resources}
+       />
+     )}
+ 
+-    {pendingDetailId && null}
+   </section>
