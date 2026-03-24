@@ -28,7 +28,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "f6aa541b-de1d-47c2-83e8-302c43fc1610",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -14205,9 +14205,9 @@
         "author": "",
         "hasConsumed": false,
         "id": "08a477d5-4b16-4acf-82cb-7f7f43c3ecda",
-        "mediaFormat": "WISH_LIST__MOVIE",
-        "priority": 0,
+        "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
+        "priority": 0,
         "title": "Kids"
     },
     {
