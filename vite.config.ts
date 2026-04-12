@@ -11,6 +11,7 @@ export default defineConfig({
         open: true,
     },
     build: {
+        target: "es2020",
         outDir: "build",
     },          
     test: {
