@@ -2,6 +2,15 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "55202a91-ffe1-4ce9-816e-fdd261825364",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "The Housemaid"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "dfc5628c-4d50-43cf-bef5-d5a81bc12429",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "Satoshi Kon's (episodes 1 - 13)",
@@ -42,7 +51,7 @@
         "mediaFormat": "VIDEO_GAME__PS3",
         "notes": "",
         "priority": 0,
-        "title": "Bladestorm: The Hundred Years' Warn"
+        "title": "Bladestorm: The Hundred Years' War"
     },
     {
         "author": "",
@@ -2647,7 +2656,7 @@
     },
     {
         "author": "Diana Pavlac Glyer",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ca6cd167-1f0f-44bd-850c-7892bf102d8c",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
@@ -12106,7 +12115,7 @@
     },
     {
         "author": "Liu Cixin",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "a5d5f25d-441e-4704-b236-5ebfae7a9e2e",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
