@@ -44,7 +44,7 @@
     "vitest": "2.1.9"
   },
   "engines": {
-    "node": ">=22.0.0",
+    "node": "^20.0.0 || ^22.0.0",
     "pnpm": ">=10.13.1"
   },
   "homepage": "https://cameronDz.github.io/list-maintainer-app",
