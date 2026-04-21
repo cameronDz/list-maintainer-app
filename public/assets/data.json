@@ -1,6 +1,15 @@
 [
     {
         "author": "",
+        "hasConsumed": true,
+        "id": "ae37aed3-adfd-4651-9352-7d6f1c53a07e",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Marty Supreme"
+    },
+    {
+        "author": "",
         "hasConsumed": false,
         "id": "55202a91-ffe1-4ce9-816e-fdd261825364",
         "mediaFormat": "MOVIE__BLUERAY",
@@ -28,7 +37,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ac9f8007-44f8-4132-8d3f-d15f517e1c75",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
