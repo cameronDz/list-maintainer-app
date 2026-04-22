@@ -1,6 +1,15 @@
 [
     {
         "author": "",
+        "hasConsumed": false,
+        "id": "d9943257-b88e-40c5-a84c-8bcada39d156",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "The Complete Season",
+        "priority": 0,
+        "title": "Captain Tsubasa: Jr. Youth Arc"
+    },
+    {
+        "author": "",
         "hasConsumed": true,
         "id": "ae37aed3-adfd-4651-9352-7d6f1c53a07e",
         "mediaFormat": "MOVIE__BLUERAY",
