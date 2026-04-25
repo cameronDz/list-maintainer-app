@@ -1558,7 +1558,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "1f707fc6-a665-4712-8038-bbcd70471b0a",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
