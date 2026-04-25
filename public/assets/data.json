@@ -1036,7 +1036,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "03cd4864-c215-4e9b-9cac-5c89e9382ab4",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -1477,7 +1477,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "3c063c06-f5dc-4f9b-af14-721ad2b63fcd",
         "mediaFormat": "MOVIE__VHS",
         "notes": "Kids Klassics",
@@ -14230,7 +14230,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "08a477d5-4b16-4acf-82cb-7f7f43c3ecda",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
