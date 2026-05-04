@@ -46,6 +46,13 @@ const MediaItemInputComponent = ({ existingItem = null, onSubmit = (_i) => false
     }
   };
 
+  const getConsumedLabel = () => {
+    if (mediaFormat.startsWith("BOOK")) return "Has read";
+    if (mediaFormat.startsWith("MOVIE")) return "Has watched";
+    if (mediaFormat.startsWith("VIDEO_GAME")) return "Has played";
+    return "Consumed";
+  };
+
   return (
     <Fragment>
       <div className="MediaItemInput-input">
@@ -71,12 +78,7 @@ const MediaItemInputComponent = ({ existingItem = null, onSubmit = (_i) => false
           onKeyDown={handleKeyDown}
           type="checkbox"
         />
-        <label htmlFor="consumed-checkbox">
-          {mediaFormat.startsWith("BOOK") && "Has read"}
-          {mediaFormat.startsWith("MOVIE") && "Has watched"}
-          {mediaFormat.startsWith("VIDEO_GAME") && "Has played"}
-          {!mediaFormat.startsWith("BOOK") && !mediaFormat.startsWith("MOVIE") && !mediaFormat.startsWith("VIDEO_GAME") && "Consumed"}
-        </label>
+        <label htmlFor="consumed-checkbox">{getConsumedLabel()}</label>
       </div>
       <div className="MediaItemInput-input MediaItemInput-priority-row">
         <label htmlFor="priority-range">Priority</label>
@@ -91,7 +93,7 @@ const MediaItemInputComponent = ({ existingItem = null, onSubmit = (_i) => false
           type="range"
           value={priority}
         />
-        <span style={{ fontSize: "var(--font-size-sm)", color: "var(--color-muted)", minWidth: "30px", textAlign: "right" }}>{priority}</span>
+        <span className="MediaItemInput-priority-value">{priority}</span>
       </div>
       <div className="MediaItemInput-input">
         <label htmlFor="media-author-input">Author</label>

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { MediaFormat } from "../App.constants";
 import { MediaItem } from "../App.types";
+import "./RandomMovieButton.styles.css";
 
 const RandomMovieButtonComponent = ({ items = [] }: { items: MediaItem[] }) => {
   const moviesToWatch = items.filter(
@@ -28,12 +29,8 @@ const RandomMovieButtonComponent = ({ items = [] }: { items: MediaItem[] }) => {
   return (
     <Fragment>
       {moviesToWatch.length > 0 && (
-        <div style={{ marginBottom: "var(--space-4)" }}>
-          <button
-            className="App-btn-primary"
-            onClick={handleClick}
-            style={{ background: "linear-gradient(135deg, #f59e0b, #d97706)" }}
-          >
+        <div className="RandomMovieButton-wrapper">
+          <button className="RandomMovieButton-btn" onClick={handleClick}>
             🎬 Pick a movie to watch
           </button>
         </div>

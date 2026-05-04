@@ -34,7 +34,7 @@ const SearchInputComponent = ({ onSearchChange = (_s) => null }: SearchInputProp
         placeholder="Search titles, authors, notes..."
         value={value}
       />
-      {timer !== 0 && <div className="SearchInput-spinner">↻</div>}
+      {timer !== 0 && <div aria-label="Searching" className="SearchInput-spinner">↻</div>}
     </div>
   );
 };

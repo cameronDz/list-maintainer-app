@@ -49,7 +49,12 @@
   accent-color: var(--color-accent);
 }
 
-.MediaItemInput-submit-btn {
+.MediaItemInput-priority-value {
+  font-size: var(--font-size-sm);
+  color: var(--color-muted);
+  min-width: 30px;
+  text-align: right;
+}
   background: var(--color-accent);
   color: var(--color-accent-text);
   font-weight: 600;
