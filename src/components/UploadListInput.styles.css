@@ -1,4 +1,24 @@
 .App-upload {
-    background: grey;
-    display: block;
+  display: inline-block;
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.App-upload::file-selector-button {
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  margin-right: var(--space-3);
+  transition: background-color var(--transition);
+}
+
+.App-upload::file-selector-button:hover {
+  background: var(--color-accent-hover);
 }

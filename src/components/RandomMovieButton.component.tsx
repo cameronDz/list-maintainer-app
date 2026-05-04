@@ -27,8 +27,17 @@ const RandomMovieButtonComponent = ({ items = [] }: { items: MediaItem[] }) => {
 
   return (
     <Fragment>
-      {moviesToWatch.length > 0 && <button onClick={handleClick}>Pick movie to watch</button>}
-      {moviesToWatch.length > 0 && <br />}
+      {moviesToWatch.length > 0 && (
+        <div style={{ marginBottom: "var(--space-4)" }}>
+          <button
+            className="App-btn-primary"
+            onClick={handleClick}
+            style={{ background: "linear-gradient(135deg, #f59e0b, #d97706)" }}
+          >
+            🎬 Pick a movie to watch
+          </button>
+        </div>
+      )}
     </Fragment>
   );
 };

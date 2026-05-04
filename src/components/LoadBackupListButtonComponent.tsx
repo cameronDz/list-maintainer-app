@@ -13,7 +13,11 @@ const LoadBackupListButtonComponent = ({ onLoad }: LoadBackupListButtonProps) =>
     }
   };
 
-  return <button onClick={handleLoadBackup}>Load Backup List</button>;
+  return (
+    <button className="App-btn-secondary" onClick={handleLoadBackup}>
+      Load Backup List
+    </button>
+  );
 };
 
 export default LoadBackupListButtonComponent;
