@@ -2,6 +2,33 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "eb9ab031-c420-4994-82bf-aeeae40e0f7f",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Return to Silent Hill"
+    },
+    {
+        "author": "",
+        "hasConsumed": true,
+        "id": "ca1bb92a-b857-44ab-9a70-c6f55eb45a63",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Mercy"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "9316a30e-67ed-444b-843b-1d7b1f76a526",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Fear"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "d9943257-b88e-40c5-a84c-8bcada39d156",
         "mediaFormat": "MOVIE__DVD",
         "notes": "The Complete Season",
@@ -13791,9 +13818,9 @@
         "author": "",
         "hasConsumed": false,
         "id": "6f49da27-db26-4a0c-be6b-9b4bfe6ced99",
-        "mediaFormat": "WISH_LIST__MOVIE",
-        "priority": 0,
+        "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
+        "priority": 0,
         "title": "Cape Fear"
     },
     {
@@ -13906,11 +13933,11 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "0a0974c2-0527-4dc9-876d-8334094bbbaa",
-        "mediaFormat": "WISH_LIST__MOVIE",
-        "priority": 0,
+        "mediaFormat": "MOVIE__DVD",
         "notes": "",
+        "priority": 0,
         "title": "The Devil's Advocate"
     },
     {
