@@ -11,9 +11,9 @@ describe("app tests", () => {
     mockFetch.mockClear();
   });
 
-  it("has submit button", () => {
+  it("has add item button", () => {
     render(<App />);
-    expect(screen.getByRole("button", { name: "Submit" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Add Item" })).toBeInTheDocument();
   });
 
   it("has load backup list button", () => {
