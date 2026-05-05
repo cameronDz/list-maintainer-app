@@ -162,94 +162,113 @@ function AppComponent() {
 
   return (
     <div className="App">
-      <header className="App-header" />
+      <header className="App-header">
+        <h1 className="App-header-title">Media List</h1>
+        <p className="App-header-subtitle">Track your books, movies, and video games</p>
+      </header>
       <RandomMovieButtonComponent items={items} />
-      <SearchInputComponent onSearchChange={setSearchValue} />
-      <input checked={isFiltered} id="filtered-checkbox" onChange={handleCheckFilter} type="checkbox" />
-      <label className="App-list-manipulator-label" htmlFor="filtered-checkbox">
-        Filter
-      </label>
-      <input checked={isSorted} id="sorted-checkbox" onChange={() => setIsSorted((prev) => !prev)} type="checkbox" />
-      <label className="App-list-manipulator-label" htmlFor="sorted-checkbox">
-        Sort by Priority
-      </label>
+      <div className="App-toolbar">
+        <SearchInputComponent onSearchChange={setSearchValue} />
+        <label className="App-toolbar-toggle">
+          <input checked={isFiltered} id="filtered-checkbox" onChange={handleCheckFilter} type="checkbox" />
+          <span className="App-list-manipulator-label">Filter</span>
+        </label>
+        <label className="App-toolbar-toggle">
+          <input checked={isSorted} id="sorted-checkbox" onChange={() => setIsSorted((prev) => !prev)} type="checkbox" />
+          <span className="App-list-manipulator-label">Sort by Priority</span>
+        </label>
+      </div>
       {isFiltered && (
-        <Fragment>
-          {Object.values(ListFilter).map((filterOpt) => {
-            let countDisplay = "";
-            if (filterOpt.startsWith("WISH_LIST")) {
-              countDisplay = items.filter((i) => i.mediaFormat.toString() === filterOpt.toString()).length.toString();
-            } else {
-              const filteredList = items.filter((i) => i.mediaFormat.startsWith(filterOpt));
-              const consumedCount = filteredList.filter((i) => i.hasConsumed).length;
-              countDisplay = `${consumedCount}/${filteredList.length}`;
-            }
-            return (
-              <Fragment key={filterOpt}>
-                <br />
-                <input
-                  checked={filter === filterOpt}
-                  id={filterOpt}
-                  onChange={() => handleChangeFilter(filterOpt)}
-                  type="radio"
-                  value={filterOpt}
-                />
-                <label htmlFor={filterOpt}>{`${filterOpt} (${countDisplay})`}</label>
-                {filter === ListFilter.MOVIE && filterOpt === ListFilter.MOVIE && (
-                  <div className="App-list-sub-filter">
-                    {Object.values(MovieFormat).map((mf) => {
-                      return (
-                        <Fragment key={mf}>
-                          <input
-                            checked={movieFilter === mf}
-                            id={mf}
-                            onChange={() => setMovieFilter(mf)}
-                            type="radio"
-                            value={mf}
-                          />
-                          <label htmlFor={mf}>
+        <div className="App-filter-panel">
+          <div className="App-filter-options">
+            {Object.values(ListFilter).map((filterOpt) => {
+              let countDisplay = "";
+              if (filterOpt.startsWith("WISH_LIST")) {
+                countDisplay = items.filter((i) => i.mediaFormat.toString() === filterOpt.toString()).length.toString();
+              } else {
+                const filteredList = items.filter((i) => i.mediaFormat.startsWith(filterOpt));
+                const consumedCount = filteredList.filter((i) => i.hasConsumed).length;
+                countDisplay = `${consumedCount}/${filteredList.length}`;
+              }
+              return (
+                <Fragment key={filterOpt}>
+                  <label className="App-filter-radio-label">
+                    <input
+                      checked={filter === filterOpt}
+                      id={filterOpt}
+                      onChange={() => handleChangeFilter(filterOpt)}
+                      type="radio"
+                      value={filterOpt}
+                    />
+                    {`${filterOpt} (${countDisplay})`}
+                  </label>
+                  {filter === ListFilter.MOVIE && filterOpt === ListFilter.MOVIE && (
+                    <div className="App-list-sub-filter">
+                      {Object.values(MovieFormat).map((mf) => {
+                        return (
+                          <label key={mf} className="App-filter-radio-label">
+                            <input
+                              checked={movieFilter === mf}
+                              id={mf}
+                              onChange={() => setMovieFilter(mf)}
+                              type="radio"
+                              value={mf}
+                            />
                             {mf}
                             {` (${items.filter((i) => i.mediaFormat.endsWith(mf)).length})`}
                           </label>
-                          <br />
-                        </Fragment>
-                      );
-                    })}
-                  </div>
-                )}
-                {filter === ListFilter.VIDEO_GAME && filterOpt === ListFilter.VIDEO_GAME && (
-                  <div className="App-list-sub-filter">
-                    {Object.values(VideoGameFormat).map((vgf) => {
-                      return (
-                        <Fragment key={vgf}>
-                          <input
-                            checked={videoGameFilter === vgf}
-                            id={vgf}
-                            onChange={() => setVideoGameFilter(vgf)}
-                            type="radio"
-                            value={vgf}
-                          />
-                          <label htmlFor={vgf}>
+                        );
+                      })}
+                    </div>
+                  )}
+                  {filter === ListFilter.VIDEO_GAME && filterOpt === ListFilter.VIDEO_GAME && (
+                    <div className="App-list-sub-filter">
+                      {Object.values(VideoGameFormat).map((vgf) => {
+                        return (
+                          <label key={vgf} className="App-filter-radio-label">
+                            <input
+                              checked={videoGameFilter === vgf}
+                              id={vgf}
+                              onChange={() => setVideoGameFilter(vgf)}
+                              type="radio"
+                              value={vgf}
+                            />
                             {vgf}
                             {` (${items.filter((i) => i.mediaFormat.endsWith(vgf)).length})`}
                           </label>
-                          <br />
-                        </Fragment>
-                      );
-                    })}
-                  </div>
-                )}
-              </Fragment>
-            );
-          })}
-        </Fragment>
+                        );
+                      })}
+                    </div>
+                  )}
+                </Fragment>
+              );
+            })}
+          </div>
+        </div>
       )}
-      {items.length === 0 && <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />}
-      {items.length === 0 && <LoadBackupListButtonComponent onLoad={(uploadedItems) => setItems(uploadedItems)} />}
-      <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
-      {existingItem && <button onClick={() => setExistingItem(null)}>Cancel</button>}
-      <br />
-      {items.length > 0 && <button onClick={handleDownload}>Download list</button>}
+      {items.length === 0 && (
+        <div className="App-upload-area">
+          <p>No list loaded. Upload a saved JSON file or load the backup.</p>
+          <UploadListInputComponent onUpload={(uploadedItems) => setItems(uploadedItems)} />
+          <LoadBackupListButtonComponent onLoad={(uploadedItems) => setItems(uploadedItems)} />
+        </div>
+      )}
+      <div className="App-form-section">
+        <p className="App-form-section-title">{existingItem ? "Edit Item" : "Add Item"}</p>
+        <MediaItemInputComponent existingItem={existingItem} onSubmit={handleSubmit} />
+        {existingItem && (
+          <button className="App-btn-secondary" onClick={() => setExistingItem(null)}>
+            Cancel
+          </button>
+        )}
+      </div>
+      <div className="App-actions">
+        {items.length > 0 && (
+          <button className="App-btn-primary" onClick={handleDownload}>
+            Download list
+          </button>
+        )}
+      </div>
       <ul className="App-list">
         {items
           .map((i) => ({ ...i }))

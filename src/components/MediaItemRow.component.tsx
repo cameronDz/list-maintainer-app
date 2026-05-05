@@ -29,7 +29,7 @@ const MediaItemRowComponent = ({
   onEdit = () => {},
 }: MediaItemRowProps) => {
   return (
-    <div className={classNames("MediaItemRow-container", itemPriority && "with-priority-range")}>
+    <div className={classNames("MediaItemRow-container", itemHasConsumed && "is-consumed")}>
       {itemPriority > 0 && (
         <input
           className="MediaItemRow-priority-range"
@@ -49,19 +49,18 @@ const MediaItemRowComponent = ({
           Edit
         </button>
       </div>
-      <div>
+      <div className="MediaItemRow-content">
         <div className="MediaItemRow-title-top-row">
           {!itemMediaFormat.startsWith("WISH_LIST") && (
             <input checked={itemHasConsumed} onChange={onChangeConsumed} type="checkbox" />
           )}
-          <span className="MediaItemRow-type">{mediaFormatMapper(itemMediaFormat)}:</span>
-          <strong>{itemTitle}</strong>
+          <span className="MediaItemRow-type">{mediaFormatMapper(itemMediaFormat)}</span>
+          <strong className="MediaItemRow-title">{itemTitle}</strong>
         </div>
         <div className="MediaItemRow-title-bottom-row">
           {itemAuthor && (
             <span className="MediaItemRow-author">
-              <span>by -</span>
-              <strong className="MediaItemRow-author">{itemAuthor}</strong>
+              by&nbsp;<strong>{itemAuthor}</strong>
             </span>
           )}
           {itemNotes && (

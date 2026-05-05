@@ -46,37 +46,44 @@ const MediaItemInputComponent = ({ existingItem = null, onSubmit = (_i) => false
     }
   };
 
+  const getConsumedLabel = () => {
+    if (mediaFormat.startsWith("BOOK")) return "Has read";
+    if (mediaFormat.startsWith("MOVIE")) return "Has watched";
+    if (mediaFormat.startsWith("VIDEO_GAME")) return "Has played";
+    return "Consumed";
+  };
+
   return (
     <Fragment>
       <div className="MediaItemInput-input">
+        <label htmlFor="media-title-input">Title</label>
         <input
+          id="media-title-input"
           onChange={(e) => setTitle(e.target.value || "")}
           onKeyDown={handleKeyDown}
-          placeholder="title"
+          placeholder="Enter title..."
           value={title}
         />
       </div>
       <div className="MediaItemInput-input">
+        <label htmlFor="media-type-select">Media type</label>
         <DropDownMediaFormat mediaFormat={mediaFormat} onSelect={setMediaFormat} />
       </div>
-      <div className="MediaItemInput-input">
+      <div className="MediaItemInput-input MediaItemInput-consumed-row">
         <input
           checked={hasConsumed}
           disabled={!mediaFormat || mediaFormat.startsWith("WISH_LIST")}
-          name="consumed-checkbox"
+          id="consumed-checkbox"
           onChange={() => setHasConsumed((prev) => !prev)}
           onKeyDown={handleKeyDown}
           type="checkbox"
         />
-        <label htmlFor="consumed-checkbox">
-          {mediaFormat.startsWith("BOOK") && "has read"}
-          {mediaFormat.startsWith("MOVIE") && "has watched"}
-          {mediaFormat.startsWith("VIDEO_GAME") && "has played"}
-        </label>
+        <label htmlFor="consumed-checkbox">{getConsumedLabel()}</label>
       </div>
-      <div className="MediaItemInput-input">
+      <div className="MediaItemInput-input MediaItemInput-priority-row">
         <label htmlFor="priority-range">Priority</label>
         <input
+          id="priority-range"
           max="100"
           min="0"
           name="priority-range"
@@ -86,25 +93,30 @@ const MediaItemInputComponent = ({ existingItem = null, onSubmit = (_i) => false
           type="range"
           value={priority}
         />
+        <span className="MediaItemInput-priority-value">{priority}</span>
       </div>
       <div className="MediaItemInput-input">
+        <label htmlFor="media-author-input">Author</label>
         <input
+          id="media-author-input"
           onChange={(e) => setAuthor(e.target.value || "")}
           onKeyDown={handleKeyDown}
-          placeholder="author"
+          placeholder="Enter author..."
           value={author}
         />
       </div>
       <div className="MediaItemInput-input">
+        <label htmlFor="media-notes-input">Notes</label>
         <textarea
+          id="media-notes-input"
           onChange={(e) => setNotes(e.target.value || "")}
           onKeyDown={handleKeyDown}
-          placeholder="notes"
+          placeholder="Enter notes..."
           value={notes}
         />
       </div>
       <button className="MediaItemInput-submit-btn" disabled={!mediaFormat || !title} onClick={handleSubmit}>
-        {!existingItem?.id ? "Submit" : "Save"}
+        {!existingItem?.id ? "Add Item" : "Save Changes"}
       </button>
     </Fragment>
   );

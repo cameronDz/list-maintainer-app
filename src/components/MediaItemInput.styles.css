@@ -1,8 +1,69 @@
 .MediaItemInput-input {
-    margin-bottom: 6px;
+  margin-bottom: var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
 }
 
-.MediaItemInput-submit-btn {
-    margin-bottom: 12px;
-    margin-right: 12px;
+.MediaItemInput-input input:not([type="checkbox"]):not([type="range"]),
+.MediaItemInput-input textarea,
+.MediaItemInput-input select {
+  width: 100%;
+}
+
+.MediaItemInput-input textarea {
+  min-height: 72px;
+  resize: vertical;
+}
+
+.MediaItemInput-input label {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.MediaItemInput-consumed-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-direction: row !important;
+}
+
+.MediaItemInput-consumed-row input[type="checkbox"] {
+  accent-color: var(--color-accent);
+  width: 16px;
+  height: 16px;
+}
+
+.MediaItemInput-priority-row {
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.MediaItemInput-priority-row label {
+  min-width: 56px;
+}
+
+.MediaItemInput-priority-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--color-accent);
+}
+
+.MediaItemInput-priority-value {
+  font-size: var(--font-size-sm);
+  color: var(--color-muted);
+  min-width: 30px;
+  text-align: right;
+}
+  background: var(--color-accent);
+  color: var(--color-accent-text);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  padding: var(--space-2) var(--space-5);
+  border-radius: var(--radius-sm);
+  margin-right: var(--space-2);
+}
+
+.MediaItemInput-submit-btn:hover:not(:disabled) {
+  background: var(--color-accent-hover);
 }

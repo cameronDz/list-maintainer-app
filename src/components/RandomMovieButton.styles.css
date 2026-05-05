@@ -1,0 +1,15 @@
+.RandomMovieButton-wrapper {
+  margin-bottom: var(--space-4);
+}
+
+.RandomMovieButton-btn {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: var(--color-accent-text);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+}
+
+.RandomMovieButton-btn:hover {
+  background: linear-gradient(135deg, #d97706, #b45309);
+}
