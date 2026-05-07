@@ -2,6 +2,24 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "c2772235-b98a-41a2-b039-9bfd01e16e84",
+        "mediaFormat": "VIDEO_GAME__PS4",
+        "notes": "",
+        "priority": 0,
+        "title": "The Witcher 3: Wild Hunt"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "95456955-48d6-4cb7-94ac-f02093ce8ac1",
+        "mediaFormat": "VIDEO_GAME__PS4",
+        "notes": "",
+        "priority": 0,
+        "title": "Star Ocean: Integrity and Faithlessness"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "eb9ab031-c420-4994-82bf-aeeae40e0f7f",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
