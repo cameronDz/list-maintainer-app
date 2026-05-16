@@ -2,6 +2,24 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "660c8200-79db-48fa-85ae-9943152240a4",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Special Edition (2-disc)",
+        "priority": 0,
+        "title": "Finaly Fantasy: The Spirits Within"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "110cd83e-500c-4320-905b-a8a5e4d4345b",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Episodes 1-12",
+        "priority": 0,
+        "title": "Lagrange - The Flower of Rin-ne (Set 1)"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "c2772235-b98a-41a2-b039-9bfd01e16e84",
         "mediaFormat": "VIDEO_GAME__PS4",
         "notes": "",
@@ -64,7 +82,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "55202a91-ffe1-4ce9-816e-fdd261825364",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
