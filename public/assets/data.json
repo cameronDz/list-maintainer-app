@@ -2,6 +2,33 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "2f910262-5bfa-4fbb-bf62-1e7d2334aaec",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Power Up Edition",
+        "priority": 0,
+        "title": "The Super Mario Bros. Movie"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "42cf4491-c992-4beb-9957-84c8aaa6a5a8",
+        "mediaFormat": "VIDEO_GAME__PS2",
+        "notes": "",
+        "priority": 0,
+        "title": "Beyond Good & Evil"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "83136741-d24f-42c9-9bcc-1088d1f6d179",
+        "mediaFormat": "VIDEO_GAME__PS4",
+        "notes": "",
+        "priority": 0,
+        "title": "Disgaea 4: Complete+"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "660c8200-79db-48fa-85ae-9943152240a4",
         "mediaFormat": "MOVIE__DVD",
         "notes": "Special Edition (2-disc)",
