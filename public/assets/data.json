@@ -1,6 +1,33 @@
 [
     {
         "author": "",
+        "hasConsumed": false,
+        "id": "20c737c0-59b9-45b8-b84b-9c3612796be3",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "End of Watch"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c64dba45-c852-4482-bdc6-ebce79159ddc",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Knowing"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f2212a0d-34ec-4ed1-b2bc-e6a906808062",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Awake"
+    },
+    {
+        "author": "",
         "hasConsumed": true,
         "id": "2f910262-5bfa-4fbb-bf62-1e7d2334aaec",
         "mediaFormat": "MOVIE__DVD",
