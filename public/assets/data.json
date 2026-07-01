@@ -1,5 +1,32 @@
 [
     {
+        "author": "William Gibson",
+        "hasConsumed": false,
+        "id": "d78f8e92-28b6-425d-9f00-be2877a0a8cd",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "Mona Lisa Overdrive"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "75fb8388-248e-4bcf-95e9-dddf27c5378f",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Collector's Edition",
+        "priority": 0,
+        "title": "The Super Mario Galaxy Movie"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "5d3f3f15-f362-430c-b814-391cda6a1849",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Tombstone"
+    },
+    {
         "author": "",
         "hasConsumed": false,
         "id": "20c737c0-59b9-45b8-b84b-9c3612796be3",
@@ -12369,8 +12396,8 @@
         "author": "Frank Herbert",
         "hasConsumed": false,
         "id": "7e088d73-ad56-434e-989e-2d0ee44a0086",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "notes": "(book 2 of series)",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "(book 1 of series)",
         "priority": 100,
         "title": "Dune"
     },
