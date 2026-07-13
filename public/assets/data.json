@@ -1,5 +1,14 @@
 [
     {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f91a74d6-6cdc-492a-9a1b-8f2d7b0e1bd5",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "The Last Duel"
+    },
+    {
         "author": "William Gibson",
         "hasConsumed": false,
         "id": "d78f8e92-28b6-425d-9f00-be2877a0a8cd",
