@@ -2269,7 +2269,7 @@
     },
     {
         "author": "C.S. Lewis",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "b5a983f6-79aa-43a8-9676-6b2260b396ac",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
@@ -3538,7 +3538,7 @@
     },
     {
         "author": "Gaiman, Neil",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "1cff94a2-93f0-48e6-aa45-ac45a39bf422",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
