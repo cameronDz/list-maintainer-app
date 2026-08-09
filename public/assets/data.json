@@ -2,6 +2,141 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "30d56062-fdd5-4877-8f03-994c4e2c3f1b",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2008)",
+        "priority": 0,
+        "title": "Street Kings"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "95e18010-8474-4ba3-b284-d982976548d2",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Silver Lining Playbook"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c26a1d56-0705-4740-a9e5-80f4becf87e0",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Art of Self-Defense"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "15d796ed-d4df-433a-b829-85309406b688",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2025)",
+        "priority": 0,
+        "title": "Omaha"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "95ff15bd-e756-4f0b-bf01-b2053cb0be50",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Return to Blue Lagoon"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c2d9b90a-f03c-4172-bef5-78f0cdcfa631",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Stop Loss"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6f6071d2-62a2-4110-a942-747816ea320e",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Bull Durham"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "31010e99-66c4-475e-b04d-9927a3537239",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Companion"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "20c7b51c-4dfa-4e19-baaf-1311d6403754",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2016)",
+        "priority": 0,
+        "title": "Allied"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1554766a-6880-4b3b-b808-d818ac59ebe8",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Unhealer"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2f098885-429c-406d-8748-64e3ee93d9a7",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Vengeance: A Love Story"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "179d3489-c829-40b1-b246-9aa78097c60b",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2014)",
+        "priority": 0,
+        "title": "The Signal"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1d1b4464-3f2d-4e25-ab03-5d024fc3e1d0",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Painted Veil"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f6822c95-77d7-46e6-87d6-e855383406e6",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Bone Tomahawk"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "16715015-1ca5-4dee-a111-3ce3ea79281e",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(1975)",
+        "priority": 0,
+        "title": "120 Days of Sodom"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "9e532d01-a58b-4b74-898b-204d49311787",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "Twin Peaks: From Z to A",
