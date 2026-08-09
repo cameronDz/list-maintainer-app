@@ -2,6 +2,69 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "9e532d01-a58b-4b74-898b-204d49311787",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Twin Peaks: From Z to A",
+        "priority": 0,
+        "title": "Twin Peaks: The Missing Pieces"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "43fb7d5d-0aca-47ea-a9f4-ad35beff7fb6",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Twin Peaks: From Z to A",
+        "priority": 0,
+        "title": "Twin Peaks: Fire Walk With Me"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a743c67e-4648-4a49-9d38-f7fdedc327b8",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Twin Peaks: From Z to A",
+        "priority": 0,
+        "title": "Twin Peaks: Season 2"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "cbd476d8-119e-4ab4-a669-499bcde1dd69",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "Twin Peaks: From Z to A",
+        "priority": 0,
+        "title": "Twin Peak: Season 1"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "994e7617-7d25-4b97-b3e5-b5f3de551063",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Attack on Titan: Complete First Season"
+    },
+    {
+        "author": "",
+        "hasConsumed": true,
+        "id": "eb0107cd-7687-432c-9f4c-18e01343de57",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Obession"
+    },
+    {
+        "author": "Matt Dinniman",
+        "hasConsumed": false,
+        "id": "f1dcb70d-5d82-48db-8002-7f1f2cb84882",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "Dungeon Crawler Carl"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "f91a74d6-6cdc-492a-9a1b-8f2d7b0e1bd5",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
@@ -19,7 +82,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "75fb8388-248e-4bcf-95e9-dddf27c5378f",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "Collector's Edition",
@@ -426,7 +489,7 @@
         "author": "Frank Herbert",
         "hasConsumed": false,
         "id": "ae48afbc-4911-4702-be59-d11b472e0985",
-        "mediaFormat": "WISH_LIST__BOOK",
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "(book 2 of series)",
         "priority": 100,
         "title": "Dune Messiah"
@@ -435,7 +498,7 @@
         "author": "Andrzej Sapkowski",
         "hasConsumed": false,
         "id": "a4616569-12f7-463d-95a3-d170085c84ff",
-        "mediaFormat": "WISH_LIST__BOOK",
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "(book 1 of main saga)",
         "priority": 100,
         "title": "The Witcher: Blood of Elves"
