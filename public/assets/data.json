@@ -2,6 +2,114 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "0752f1af-bbd3-41b4-b380-530a5c632b3a",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Three Billboards Outside Ebbing, Missouri"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "2a0c5a5c-1483-4bb5-93e1-0befb56a80e7",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Virgin Territory"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b2fbaaed-3e50-445a-8f87-552392fb4724",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Dancing with Wolves"
+    },
+    {
+        "author": "Jules Verne",
+        "hasConsumed": false,
+        "id": "da45dce5-f3ad-4ea4-a112-2795c56de25f",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "Paris in the Twentieth Century"
+    },
+    {
+        "author": "H. G. Wells",
+        "hasConsumed": false,
+        "id": "a0ebc788-3099-4812-bd00-9e8a7c07390e",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The World Set Free"
+    },
+    {
+        "author": "E.M. Forster",
+        "hasConsumed": false,
+        "id": "571b4a52-6013-413e-b4b8-99802b29432c",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Machine Stops"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "10f37b49-1d97-4e5b-b916-7fd65fa47649",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Breakdown"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "ab65d328-acea-42ac-ba74-0aec20b5b148",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "Winnie-the-Pooh: Blood and Honey"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c9c67116-d2d2-4abc-81cd-d941b3318953",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "(2008)",
+        "priority": 0,
+        "title": "The Black Hole"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "cdafe8e1-7303-44c8-b43c-e7751a67ec2f",
+        "mediaFormat": "WISH_LIST__MOVIE",
+        "notes": "",
+        "priority": 0,
+        "title": "The Loneliest Man in New York"
+    },
+    {
+        "author": "Leo Tolstoy",
+        "hasConsumed": false,
+        "id": "72ef3292-c4d7-445f-9c0f-8c32a675c88e",
+        "mediaFormat": "WISH_LIST__BOOK",
+        "notes": "",
+        "priority": 0,
+        "title": "The Death of Ivan Illyich"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "f1e2cf69-0333-4211-9bcf-44227fcbef43",
+        "mediaFormat": "WISH_LIST__VIDEO_GAME",
+        "notes": "",
+        "priority": 0,
+        "title": "Lacuna"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "30d56062-fdd5-4877-8f03-994c4e2c3f1b",
         "mediaFormat": "WISH_LIST__MOVIE",
         "notes": "(2008)",
@@ -3186,12 +3294,12 @@
         "title": "Coraline"
     },
     {
-        "author": "Leo Tolstory",
+        "author": "Leo Tolstoy",
         "hasConsumed": true,
         "id": "ec236b99-9bb1-45b7-8352-a8716cabac62",
         "mediaFormat": "BOOK__PAPERBACK",
-        "priority": 0,
         "notes": "",
+        "priority": 0,
         "title": "The Cossacks"
     },
     {
@@ -7231,8 +7339,8 @@
         "hasConsumed": false,
         "id": "14208e45-8fa3-4097-a118-05d077526fb6",
         "mediaFormat": "MOVIE__DVD",
+        "notes": "(1979)",
         "priority": 0,
-        "notes": "",
         "title": "The Black Hole"
     },
     {
@@ -12852,12 +12960,12 @@
         "title": "Great Gatsby"
     },
     {
-        "author": "Tolstoy",
+        "author": "Leo Tolstoy",
         "hasConsumed": false,
         "id": "11993199-2829-42b4-a3c4-8157d746f359",
         "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
         "notes": "",
+        "priority": 0,
         "title": "Hadji Murat"
     },
     {
@@ -15862,9 +15970,9 @@
         "hasConsumed": false,
         "id": "f3eccfbd-69ac-405f-bab4-2d6e1ae3429b",
         "mediaFormat": "WISH_LIST__VIDEO_GAME",
-        "priority": 0,
         "notes": "Director's Cut",
-        "title": "Shadowrun Dragonfall"
+        "priority": 0,
+        "title": "Shadowrun: Dragonfall"
     },
     {
         "author": "",
