@@ -1,5 +1,14 @@
 [
     {
+        "author": "Eric Nylund",
+        "hasConsumed": false,
+        "id": "470ef64e-5588-4a40-9336-fafd1f86ec94",
+        "mediaFormat": "BOOK__PAPERBACK",
+        "notes": "",
+        "priority": 0,
+        "title": "Halo: The Fall of Reach"
+    },
+    {
         "author": "",
         "hasConsumed": false,
         "id": "0752f1af-bbd3-41b4-b380-530a5c632b3a",
@@ -12702,14 +12711,14 @@
         "author": "J.G. Ballard",
         "hasConsumed": false,
         "id": "c75f40f8-6a41-4c41-a037-b7d6547eeb55",
-        "mediaFormat": "WISH_LIST__BOOK",
-        "priority": 0,
+        "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
+        "priority": 0,
         "title": "The Drowned World"
     },
     {
         "author": "Frank Herbert",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "7e088d73-ad56-434e-989e-2d0ee44a0086",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "(book 1 of series)",
