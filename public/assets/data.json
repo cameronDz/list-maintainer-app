@@ -1774,7 +1774,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ad897730-d3eb-47b4-813b-6122e6ee8954",
         "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
         "notes": "",
@@ -13915,7 +13915,7 @@
     },
     {
         "author": "James D'Amato",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "07451ef8-03c8-4f9b-b64a-6ba024f4ae02",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "",
