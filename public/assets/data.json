@@ -802,7 +802,7 @@
     },
     {
         "author": "Frank Herbert",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ae48afbc-4911-4702-be59-d11b472e0985",
         "mediaFormat": "BOOK__PAPERBACK",
         "notes": "(book 2 of series)",
