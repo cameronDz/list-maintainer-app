@@ -2,6 +2,42 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "7abea9ed-8d89-4ad0-948b-bbcfc91a1665",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Complete TV Series",
+        "priority": 0,
+        "title": "Boogiepop Phantom"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "4f634cd4-e9b7-40e9-85a6-5d6b55629e69",
+        "mediaFormat": "MOVIE__BLUERAY_DVD_COMBO",
+        "notes": "",
+        "priority": 0,
+        "title": "Stillwater"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "041a10ee-6c13-43d1-aac6-986e9a4df9f8",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Management"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "4e63190a-d5ac-4c54-880b-ccaa154d27b9",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "The Colony"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "7644db9c-6446-464f-9d97-11481950b079",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
