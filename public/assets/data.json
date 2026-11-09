@@ -2,6 +2,195 @@
     {
         "author": "",
         "hasConsumed": false,
+        "id": "8d95133a-2cfe-4b32-872f-a28fd8682b73",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Alien: Romulus"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "058ea8ed-7596-4035-9d29-53512b417bd6",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Alien: Covenant"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "09c6d69d-adfc-444d-bb31-a19da046bba0",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Prometheus"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "49257dd0-8a3f-4f9a-bfd3-3f8b2ced0971",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Alien Resurrection"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1aadd5ca-2b39-4f76-9d6b-1406829b902e",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Alien 3"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1f74c10c-b130-4dbd-91f8-bf038cff4a6b",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Aliens"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b36dfad9-4746-4693-a891-9e145946c7ca",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Alien Collection: 7",
+        "priority": 0,
+        "title": "Alien"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "fbfdff51-d233-4b7f-82d9-cfdc95d24dc4",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Die Hard Collection (5 Movies)",
+        "priority": 0,
+        "title": "A Good Day to Die Hard"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "abbfbf73-9816-465f-b167-28aec1573fe6",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Die Hard Collection (5 Movies)",
+        "priority": 0,
+        "title": "Live Free of Die Hard"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "1cb3fc13-91d0-46c1-8e0a-973219d6a6dd",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Die Hard Collection (5 Movies)",
+        "priority": 0,
+        "title": "Die Hard with a Vengeance"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b5db81a7-5432-4f20-9fa3-a8b1de27153e",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Die Hard Collection (5 Movies)",
+        "priority": 0,
+        "title": "Die Hard 2: Die Harder"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "d5c136d8-9d0c-4f1a-af87-9edc2fe05601",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Die Hard Collection (5 Movies)",
+        "priority": 0,
+        "title": "Die Hard"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "c4d6308c-0b89-4a67-9903-a151229694e5",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "A Charlie Brown Christmas"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "b27a435b-f880-4393-9d41-d4340d6ad30b",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "A Charlie Brown Thanksgiving"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "6979842d-21b2-4f25-a5cb-30bd0e7bfe39",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "You're Not Elected, Charlie Brown"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "fa87238a-fddd-4790-96cf-a1bed1bd540f",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "It's the Great Pumpkin, Charlie Brown"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "d393238e-1205-430c-b4e2-cc47abacfb3b",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "It's the Easter Beagle, Charlie Brown"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "d3cba5c8-9070-49d2-bce8-a76da38d65e2",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Peanuts Deluxe Collection: 6 Remastered Classics",
+        "priority": 0,
+        "title": "Be My Valentine, Charlie Brown"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "a4d1f425-00da-4bce-8c8f-bf3bd136a1a9",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "",
+        "priority": 0,
+        "title": "Avatar Aang: The Last Airbender"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "0fcac48c-054b-4c4c-9309-a67b89d03a17",
+        "mediaFormat": "MOVIE__BLUERAY",
+        "notes": "(2025)",
+        "priority": 0,
+        "title": "Dracula"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
+        "id": "76b2739a-6f31-4239-875a-2c1ffe0a2c05",
+        "mediaFormat": "MOVIE__DVD",
+        "notes": "Collector's Edition",
+        "priority": 0,
+        "title": "The Uprising"
+    },
+    {
+        "author": "",
+        "hasConsumed": false,
         "id": "7abea9ed-8d89-4ad0-948b-bbcfc91a1665",
         "mediaFormat": "MOVIE__DVD",
         "notes": "Complete TV Series",
@@ -28,7 +217,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "4e63190a-d5ac-4c54-880b-ccaa154d27b9",
         "mediaFormat": "MOVIE__BLUERAY",
         "notes": "",
@@ -37,7 +226,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "7644db9c-6446-464f-9d97-11481950b079",
         "mediaFormat": "MOVIE__DVD",
         "notes": "",
@@ -73,7 +262,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "52114446-2cf0-4a79-9a22-ec8623fb0ad1",
         "mediaFormat": "MOVIE__DVD",
         "notes": "Scary Tales 4-Film Collection",
@@ -181,7 +370,7 @@
     },
     {
         "author": "",
-        "hasConsumed": false,
+        "hasConsumed": true,
         "id": "ab65d328-acea-42ac-ba74-0aec20b5b148",
         "mediaFormat": "MOVIE__DVD",
         "notes": "Scary Tales 4-Film Collection",
